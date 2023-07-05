@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/mark-pro--bold.ttf",
+      "sha1": "97bbf7539a628ac7f3e4327d2c9d9d2b6f474091"
+    },
+    {
+      "path": "assets/fonts/mark-pro--heavy.ttf",
+      "sha1": "69cd4780d042432991ecff9060080918fe3f1efb"
+    },
+    {
+      "path": "assets/fonts/mark-pro--medium.ttf",
+      "sha1": "64a757f1b0b17f5de11bbe388292b2ff0994be54"
+    },
+    {
+      "path": "assets/fonts/mark-pro--regular.ttf",
+      "sha1": "0607fc60969ced16b4c9d1377e438a44fe668fbf"
+    },
+    {
+      "path": "assets/fonts/MarkPro-Bold.ttf",
+      "sha1": "3bcfc0c926353d51be4c294cb1e78ebf220b3ee9"
+    }
+  ]
+}
