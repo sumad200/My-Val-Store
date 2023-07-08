@@ -2,6 +2,8 @@ import axiosRetry from 'axios-retry';
 import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 import CookieManager from '@react-native-cookies/cookies';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import base64 from 'base-64';
 
 const client = axios.create({
   headers: {
@@ -33,9 +35,9 @@ async function lmaoded3(tokenUri: any): Promise<void> {
   const idToken = tokenUri.get('id_token');
   await SecureStore.setItemAsync('val_access_token', accToken);
   await SecureStore.setItemAsync('val_id_token', idToken);
+  let playerData = JSON.parse(base64.decode(accToken.split('.')[1]));
+  await AsyncStorage.setItem('playerUuid', playerData.sub);
   console.log('Tokens stored');
-  //await SecureStore.deleteItemAsync('val_id_token');
-  //await SecureStore.deleteItemAsync('val_access_token');
 }
 
 function lmaoded2(): void {

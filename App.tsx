@@ -1,13 +1,7 @@
 import React from 'react';
 import {NativeBaseProvider, extendTheme} from 'native-base';
 import {StoreTabs} from './src/views/StoreTabs';
-import {SafeAreaView, StatusBar, StyleSheet, View} from 'react-native';
-import {MyCard} from './src/components/Try2blur';
-import {Test1} from './src/components/Test1';
-import {StoreCard} from './src/components/StoreCard';
-import BlurredGradientCard from './src/components/GptTest';
-import {flexbox} from 'native-base/lib/typescript/theme/styled-system';
-import {TempCard} from './src/components/TempRetry';
+import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 
 const theme = extendTheme({
   colors: {
@@ -42,7 +36,7 @@ const styles = StyleSheet.create({
   MainContainer: {
     flex: 1,
     backgroundColor: 'black',
-    paddingTop: 40,
+    paddingTop: 0,
     paddingLeft: 5,
     paddingRight: 5,
   },
@@ -51,10 +45,9 @@ const styles = StyleSheet.create({
 export default function App() {
   return (
     <NativeBaseProvider theme={theme}>
+      <StatusBar backgroundColor="black" />
       <SafeAreaView style={styles.MainContainer}>
-        <TempCard />
-        <View style={{marginTop: 69}} />
-        <TempCard />
+        <StoreTabs />
       </SafeAreaView>
     </NativeBaseProvider>
   );

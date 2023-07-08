@@ -12,7 +12,6 @@ MERGED from [:react-native-async-storage_async-storage] C:\Users\sudhan\prac\rnp
 MERGED from [:react-native-community_blur] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\@react-native-community\blur\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-cookies_cookies] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\@react-native-cookies\cookies\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:expo] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\expo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-linear-gradient] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-pager-view] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-safe-area-context] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-screens] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -226,8 +225,6 @@ MERGED from [:react-native-cookies_cookies] C:\Users\sudhan\prac\rnprac\rnprac1\
 MERGED from [:react-native-cookies_cookies] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\@react-native-cookies\cookies\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:expo] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\expo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:expo] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\expo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-linear-gradient] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-linear-gradient] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-pager-view] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-pager-view] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-safe-area-context] C:\Users\sudhan\prac\rnprac\rnprac1\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44

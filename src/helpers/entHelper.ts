@@ -1,6 +1,7 @@
 import * as SecureStore from 'expo-secure-store';
 import axiosRetry from 'axios-retry';
 import axios, {AxiosInstance} from 'axios';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 let entClient: AxiosInstance;
 
@@ -32,8 +33,18 @@ export async function fetchEnt() {
   await createEntClient();
   entClient
     .post('https://entitlements.auth.riotgames.com/api/token/v1', {})
-    .then(res => {
-      console.log(res.data);
+    .then(async res => {
+      let entToken = res.data.entitlements_token;
+      await SecureStore.setItemAsync('val_ent_token', entToken);
+      let ent = await SecureStore.getItemAsync('val_ent_token');
+      let act = await SecureStore.getItemAsync('val_access_token');
+      let uuid = await AsyncStorage.getItem('playerUuid');
+      console.log('-------------------------ent-------------------------');
+      console.log(ent);
+      console.log('-------------------------act-------------------------');
+      console.log(act);
+      console.log('-------------------------uuid-------------------------');
+      console.log(uuid);
     })
     .catch(err => {
       console.log(err);

@@ -1,27 +1,49 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
 import {View, useWindowDimensions} from 'react-native';
-import {TabView, SceneMap, TabBar} from 'react-native-tab-view';
+import {TabView, TabBar} from 'react-native-tab-view';
 import {TryRetry} from './TryRetry';
 import {KingdomcredIcon, VPIcon, Radianite} from '../components/CurrencyIcons';
 import {IconBox} from '../components/IconBox';
 import {Heading, Box, Text} from 'native-base';
-import {StoreCard} from '../components/StoreCard';
-import {BlurView} from '@react-native-community/blur';
+import {StoreList} from '../components/StoreList';
 
 const FirstRoute = () => <TryRetry />;
 
-const SecondRoute = () => (
-  <View style={{flex: 1, backgroundColor: '#673ab7'}} />
-);
-
-const ThirdRoute = () => (
-  <>
-    <StoreCard />
-  </>
-);
+const ThirdRoute = () => <View style={{flex: 1, backgroundColor: '#673ab7'}} />;
 
 export function StoreTabs() {
+  const [dailyStore, setDailyStore] = useState([
+    {
+      displayName: 'Endeavour Operator',
+      price: 875,
+      contentTierUuid: '12683d76-48d7-84a3-4e09-6985794f0445',
+      displayIcon:
+        'https://media.valorant-api.com/weaponskins/bdf1484c-44a7-2ef1-3d21-45b66ff8a89f/displayicon.png',
+    },
+    {
+      displayName: 'Sakura Vandal',
+      displayIcon:
+        'https://media.valorant-api.com/weaponskins/f946ef5c-46ab-e146-a712-1d99a1651356/displayicon.png',
+      price: 1275,
+      contentTierUuid: '0cebb8be-46d7-c12a-d306-e9907bfc5a25',
+    },
+    {
+      displayName: 'Sarmad Phantom',
+      contentTierUuid: '0cebb8be-46d7-c12a-d306-e9907bfc5a25',
+      displayIcon:
+        'https://media.valorant-api.com/weaponskins/cd07ba8f-4dae-0410-582e-71acdef102ce/displayicon.png',
+      price: 1275,
+    },
+    {
+      displayName: 'Oni Bulldog',
+      contentTierUuid: '60bca009-4182-7998-dee7-b8a2558dc369',
+      displayIcon:
+        'https://media.valorant-api.com/weaponskins/325d2274-487b-8672-84d6-6db8e9798447/displayicon.png',
+      price: 1775,
+    },
+  ]);
+
   const renderTabBar = (props: any) => (
     <TabBar
       {...props}
@@ -30,11 +52,11 @@ export function StoreTabs() {
       style={{backgroundColor: 'black'}}
       scrollEnabled={true}
       tabStyle={{width: 'auto'}}
-      gap={20}
+      gap={55}
     />
   );
 
-  const [index, setIndex] = useState(2);
+  const [index, setIndex] = useState(1);
 
   const layout = useWindowDimensions();
 
@@ -44,11 +66,16 @@ export function StoreTabs() {
     {key: 'se', title: 'Night Market'},
   ]);
 
-  const renderScene = SceneMap({
-    first: FirstRoute,
-    second: SecondRoute,
-    se: ThirdRoute,
-  });
+  const renderScene = ({route}) => {
+    switch (route.key) {
+      case 'first':
+        return <FirstRoute />;
+      case 'second':
+        return <StoreList storeList={dailyStore} />;
+      case 'se':
+        return <ThirdRoute />;
+    }
+  };
 
   const tabLabelStyle = {
     fontFamily: 'mark-pro--medium',

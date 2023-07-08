@@ -1,53 +1,74 @@
 import React from 'react';
-import {Box, Text} from 'native-base';
-import LinearGradient from 'react-native-linear-gradient';
-import {StyleSheet, View, Image} from 'react-native';
-import {BlurView} from '@react-native-community/blur';
+import {Text} from 'native-base';
+import {View, Image, StyleSheet} from 'react-native';
+import GradientContainer from './GptTest';
+import {VPIcon} from './CurrencyIcons';
+import {skinTiers} from '../constants/tierConstants';
 
-const linearGradStyle = StyleSheet.create({
-  lgcont: {
+const styles = StyleSheet.create({
+  imgContainer: {
+    position: 'relative',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  tierIcon: {
+    alignSelf: 'flex-start',
+    width: 32,
+    height: 32,
     position: 'absolute',
-    backgroundColor: 'transparent',
-    top: 5,
     bottom: 5,
     left: 5,
-    right: 5,
   },
-  lg: {
-    flex: 1,
-    margin: 10,
+  itemImage: {
+    resizeMode: 'contain',
+    width: 350,
+    height: 145,
   },
+  cardDesc: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingBottom: 5,
+    paddingHorizontal: 5,
+  },
+  priceHolder: {flexDirection: 'row', alignItems: 'center'},
 });
 
-export function StoreCard(props: any) {
+//Todo : Tier Image, Make gradient modular
+
+function StoreCardb4(props: any) {
+  let tier: string = props.tierUuid;
+  let gradientBg = skinTiers[tier].gradientColor;
+  let tierIcon = skinTiers[tier].iconSrc;
   return (
-    <>
-      <View
-        style={{
-          flex: 1,
-          alignItems: 'center',
-        }}>
-        <View
-          style={{width: '35%', height: '30%', padding: 5, borderColor: 'red'}}>
-          <LinearGradient
-            style={linearGradStyle.lg}
-            colors={['#89ff00', '#060c21', '#00bcd4']}
-          />
-        </View>
-        <BlurView
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-          }}
-          overlayColor="transparent"
-          blurType="light"
-          blurAmount={5}
-          blurRadius={15}
+    <GradientContainer gradient={gradientBg}>
+      <View style={styles.imgContainer}>
+        <Image
+          source={tierIcon ? {uri: tierIcon} : require('../img/prime-tier.png')}
+          style={styles.tierIcon}
+        />
+        <Image
+          source={
+            props.imgSrc
+              ? {uri: props.imgSrc}
+              : require('../img/prime-vandal.png')
+          }
+          resizeMode="contain"
+          style={styles.itemImage}
         />
       </View>
-    </>
+      <View style={styles.cardDesc}>
+        <Text maxW="269" bold fontSize="xl" color="white">
+          {props.itemName ? props.itemName : 'Some Random Store Item'}
+        </Text>
+        <View style={styles.priceHolder}>
+          <VPIcon width={27} height={27} />
+          <Text fontSize="xl" color="white">
+            {props.price ? ` ${props.price}` : ' 69420'}
+          </Text>
+        </View>
+      </View>
+    </GradientContainer>
   );
 }
+
+export const StoreCard = React.memo(StoreCardb4);

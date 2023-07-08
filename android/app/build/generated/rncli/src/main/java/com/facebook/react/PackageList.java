@@ -21,8 +21,6 @@ import com.reactnativecommunity.cookies.CookieManagerPackage;
 import expo.modules.ExpoModulesPackage;
 // react-native-image-filter-kit
 import iyegoroff.imagefilterkit.ImageFilterKitPackage;
-// react-native-linear-gradient
-import com.BV.LinearGradient.LinearGradientPackage;
 // react-native-pager-view
 import com.reactnativepagerview.PagerViewPackage;
 // react-native-safe-area-context
@@ -81,7 +79,6 @@ public class PackageList {
       new CookieManagerPackage(),
       new ExpoModulesPackage(),
       new ImageFilterKitPackage(),
-      new LinearGradientPackage(),
       new PagerViewPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
