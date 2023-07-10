@@ -143,6 +143,17 @@
 79                android:value="androidx.startup" />
 79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\sudhan\.gradle\caches\transforms-3\010b64a8b5f74270f65831dbc9c1f706\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 80        </provider>
-81    </application>
-82
-83</manifest>
+81
+82        <activity
+82-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\sudhan\.gradle\caches\transforms-3\f0cf7935212bf845d0368864628e5e50\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:8:9-12:75
+83            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+83-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\sudhan\.gradle\caches\transforms-3\f0cf7935212bf845d0368864628e5e50\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:9:13-73
+84            android:exported="false"
+84-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\sudhan\.gradle\caches\transforms-3\f0cf7935212bf845d0368864628e5e50\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:10:13-37
+85            android:process=":phoenix"
+85-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\sudhan\.gradle\caches\transforms-3\f0cf7935212bf845d0368864628e5e50\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:11:13-39
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.jakewharton:process-phoenix:2.1.2] C:\Users\sudhan\.gradle\caches\transforms-3\f0cf7935212bf845d0368864628e5e50\transformed\jetified-process-phoenix-2.1.2\AndroidManifest.xml:12:13-72
+87    </application>
+88
+89</manifest>

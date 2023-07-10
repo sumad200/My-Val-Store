@@ -20,9 +20,11 @@ const styles = StyleSheet.create({
     left: 5,
   },
   itemImage: {
+    marginTop: 5,
     resizeMode: 'contain',
-    width: 350,
-    height: 145,
+    width: 330,
+    maxHeight: '85%',
+    height: 120,
   },
   cardDesc: {
     flexDirection: 'row',

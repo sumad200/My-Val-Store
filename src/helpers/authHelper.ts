@@ -57,6 +57,7 @@ function lmaoded2(): void {
         console.log('gsgdsdsd');
         const tokenUri = res.data.response.parameters.uri;
         console.log(tokenUri);
+        //set player shard
         await lmaoded3(tokenUri);
       } else {
         console.log('some error occured');

@@ -34,14 +34,14 @@ const GradientContainer = (props: any) => (
           r="120%"
           fx="50%"
           fy="50%">
-          <Stop offset="0%" stopColor={props.gradient} stopOpacity="0.35" />
+          <Stop offset="0%" stopColor={props.gradient} stopOpacity="0.25" />
           <Stop offset="100%" stopColor="rgba(0, 0, 0, 0)" />
         </RadialGradient>
       </Defs>
       <Rect
         x="0"
         y="0"
-        rx="7"
+        rx="7.2"
         width="100%"
         height="100%"
         fill="url(#gradient)"

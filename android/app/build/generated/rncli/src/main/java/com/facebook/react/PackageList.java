@@ -19,10 +19,10 @@ import com.reactnativecommunity.blurview.BlurViewPackage;
 import com.reactnativecommunity.cookies.CookieManagerPackage;
 // expo
 import expo.modules.ExpoModulesPackage;
-// react-native-image-filter-kit
-import iyegoroff.imagefilterkit.ImageFilterKitPackage;
 // react-native-pager-view
 import com.reactnativepagerview.PagerViewPackage;
+// react-native-restart
+import com.reactnativerestart.RestartPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
@@ -78,8 +78,8 @@ public class PackageList {
       new BlurViewPackage(),
       new CookieManagerPackage(),
       new ExpoModulesPackage(),
-      new ImageFilterKitPackage(),
       new PagerViewPackage(),
+      new RestartPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
       new SvgPackage()

@@ -1,48 +1,117 @@
-/* eslint-disable react-native/no-inline-styles */
-import React, {useState} from 'react';
-import {View, useWindowDimensions} from 'react-native';
+import React, {useState, useEffect, useContext} from 'react';
+import {
+  View,
+  useWindowDimensions,
+  SafeAreaView,
+  StyleSheet,
+} from 'react-native';
 import {TabView, TabBar} from 'react-native-tab-view';
 import {TryRetry} from './TryRetry';
-import {KingdomcredIcon, VPIcon, Radianite} from '../components/CurrencyIcons';
+import {VPIcon, Radianite} from '../components/CurrencyIcons';
 import {IconBox} from '../components/IconBox';
+import {getWalletUrl, getStoreUrl} from '../helpers/urlHelper';
 import {Heading, Box, Text} from 'native-base';
+import {dailyOffersHelper} from '../helpers/dailyOffersHelper';
 import {StoreList} from '../components/StoreList';
+import axios, {AxiosInstance} from 'axios';
+import {TimerView} from '../components/StoreTimer';
+import {featuredHelper} from '../helpers/featuredHelper';
+import * as SecureStore from 'expo-secure-store';
+import {AuthContext} from '../helpers/AuthContext';
+import {FeatureView} from './FeatureView';
+
+const styles = StyleSheet.create({
+  MainContainer: {
+    flex: 1,
+    backgroundColor: 'black',
+    paddingTop: 0,
+    paddingLeft: 5,
+    paddingRight: 5,
+  },
+});
 
 const FirstRoute = () => <TryRetry />;
 
-const ThirdRoute = () => <View style={{flex: 1, backgroundColor: '#673ab7'}} />;
+const ThirdRoute = props => (
+  <View style={{flex: 1, backgroundColor: 'black'}}>
+    <View>
+      <TimerView mode="daily" endDate={props.endTime} />
+    </View>
+  </View>
+);
+
+let client: AxiosInstance;
+let walletUrl: string;
+let storeUrl: string;
+
+async function gameDataHeaders() {
+  let entToken = await SecureStore.getItemAsync('val_ent_token');
+  let authToken = await SecureStore.getItemAsync('val_access_token');
+  walletUrl = await getWalletUrl();
+  storeUrl = await getStoreUrl();
+
+  client = axios.create({
+    headers: {
+      'X-Riot-Entitlements-JWT': `${entToken}`,
+      Authorization: `Bearer ${authToken}`,
+    },
+  });
+}
 
 export function StoreTabs() {
-  const [dailyStore, setDailyStore] = useState([
-    {
-      displayName: 'Endeavour Operator',
-      price: 875,
-      contentTierUuid: '12683d76-48d7-84a3-4e09-6985794f0445',
-      displayIcon:
-        'https://media.valorant-api.com/weaponskins/bdf1484c-44a7-2ef1-3d21-45b66ff8a89f/displayicon.png',
-    },
-    {
-      displayName: 'Sakura Vandal',
-      displayIcon:
-        'https://media.valorant-api.com/weaponskins/f946ef5c-46ab-e146-a712-1d99a1651356/displayicon.png',
-      price: 1275,
-      contentTierUuid: '0cebb8be-46d7-c12a-d306-e9907bfc5a25',
-    },
-    {
-      displayName: 'Sarmad Phantom',
-      contentTierUuid: '0cebb8be-46d7-c12a-d306-e9907bfc5a25',
-      displayIcon:
-        'https://media.valorant-api.com/weaponskins/cd07ba8f-4dae-0410-582e-71acdef102ce/displayicon.png',
-      price: 1275,
-    },
-    {
-      displayName: 'Oni Bulldog',
-      contentTierUuid: '60bca009-4182-7998-dee7-b8a2558dc369',
-      displayIcon:
-        'https://media.valorant-api.com/weaponskins/325d2274-487b-8672-84d6-6db8e9798447/displayicon.png',
-      price: 1775,
-    },
-  ]);
+  console.log('tabs ran');
+  const {setLoggedIn} = useContext(AuthContext);
+  const [dailyStore, setDailyStore] = useState([]);
+  const [featured, setFeatured] = useState([]);
+  const [offersTimer, setOffersTimer] = useState();
+  const [featuredTimer, setFeaturedTimer] = useState();
+  const [allSkinData, setAllSkinData] = useState([]);
+  const [vpBalance, setVpBalance] = useState(69420);
+  const [rpBalance, setRpBalance] = useState(99999);
+
+  useEffect(() => {
+    async function fetchWallet() {
+      await gameDataHeaders();
+      client
+        .get(walletUrl)
+        .then(res => {
+          let balances = res.data.Balances;
+          setVpBalance(balances['85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741']);
+          setRpBalance(balances['e59aa87c-4cbf-517a-5983-6e81511be9b7']);
+        })
+        .catch(err => {
+          console.log('lully');
+          if (err.response) {
+            if (err.response.status === 400) {
+              console.log('relogin needed');
+              //setLoggedIn(false);
+            }
+          }
+        });
+    }
+    fetchWallet();
+  }, []);
+
+  useEffect(() => {
+    axios
+      .get('https://valorant-api.com/v1/weapons/skins')
+      .then(res => {
+        let skins = res.data.data;
+        setAllSkinData(skins);
+      })
+      .catch(err => {
+        console.log(`Oh No! some error - ${err}`);
+      });
+  }, []);
+
+  useEffect(() => {
+    console.log('refreshed resp from rito api');
+    let now = new Date().getTime();
+    setFeaturedTimer(now + 100 * 1000);
+    setOffersTimer(now + 10 * 1000);
+    setDailyStore(dailyOffersHelper(allSkinData));
+    setFeatured(featuredHelper(allSkinData));
+  }, [allSkinData]);
 
   const renderTabBar = (props: any) => (
     <TabBar
@@ -56,7 +125,7 @@ export function StoreTabs() {
     />
   );
 
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(0);
 
   const layout = useWindowDimensions();
 
@@ -69,11 +138,14 @@ export function StoreTabs() {
   const renderScene = ({route}) => {
     switch (route.key) {
       case 'first':
-        return <FirstRoute />;
+        return <FeatureView featuredStore={featured} />;
       case 'second':
         return <StoreList storeList={dailyStore} />;
       case 'se':
-        return <ThirdRoute />;
+        if (offersTimer) {
+          return <ThirdRoute endTime={offersTimer} />;
+        }
+        return null;
     }
   };
 
@@ -85,46 +157,44 @@ export function StoreTabs() {
 
   return (
     <>
-      <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-        <Heading
-          color="white"
-          size="xl"
-          fontFamily="heading"
-          pt="3.5"
-          pb="2.5"
-          pl="1.5">
-          My Store
-        </Heading>
-        <Box pt="2.5" pb="2.5">
-          <Box flexDirection="row" p="0" m="0">
-            {index !== 2 && (
+      <SafeAreaView style={styles.MainContainer}>
+        <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+          <Heading
+            color="white"
+            size="xl"
+            fontFamily="heading"
+            pt="3.5"
+            pb="2.5"
+            pl="1.5">
+            My Store
+          </Heading>
+          <Box pt="2.5" pb="2.5">
+            <Box flexDirection="row" p="0" m="0">
               <IconBox>
                 <VPIcon />
-                <Text color="white"> 69420</Text>
+                <Text color="white">{` ${vpBalance}`}</Text>
               </IconBox>
-            )}
-            {index !== 2 && (
               <IconBox>
                 <Radianite />
-                <Text color="white"> 999999</Text>
+                <Text color="white">{` ${rpBalance}`}</Text>
               </IconBox>
-            )}
-            {index === 2 && (
-              <IconBox>
-                <KingdomcredIcon />
-                <Text color="white"> 10000</Text>
-              </IconBox>
-            )}
+              {/*index === 2 && (
+                <IconBox>
+                  <KingdomcredIcon />
+                  <Text color="white"> 10000</Text>
+                </IconBox>
+              )*/}
+            </Box>
           </Box>
-        </Box>
-      </View>
-      <TabView
-        navigationState={{index, routes}}
-        renderTabBar={renderTabBar}
-        renderScene={renderScene}
-        onIndexChange={setIndex}
-        initialLayout={{width: layout.width}}
-      />
+        </View>
+        <TabView
+          navigationState={{index, routes}}
+          renderTabBar={renderTabBar}
+          renderScene={renderScene}
+          onIndexChange={setIndex}
+          initialLayout={{width: layout.width}}
+        />
+      </SafeAreaView>
     </>
   );
 }
