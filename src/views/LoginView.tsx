@@ -40,7 +40,11 @@ export const LoginForm = () => {
 
   return (
     <Box p="5" flex="1" justifyContent="center" bg="black">
-      {route.params && <Text color="white">{route.params.error}</Text>}
+      {route.params && (
+        <Text paddingBottom="4" color="white">
+          {route.params.error}
+        </Text>
+      )}
       <Heading marginBottom="5" color="white" fontFamily="heading" size="xl">
         Login with your Riot Account
       </Heading>
