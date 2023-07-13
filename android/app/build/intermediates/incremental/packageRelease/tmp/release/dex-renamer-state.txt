@@ -1,4 +1,4 @@
-#Thu Jul 13 11:21:09 IST 2023
+#Thu Jul 13 11:28:57 IST 2023
 base.1=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
 path.1=classes2.dex
 base.0=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
