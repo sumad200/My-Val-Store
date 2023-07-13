@@ -16,6 +16,7 @@ function Separator() {
 function StoreListb4(props: any) {
   return (
     <FlatList
+      ListHeaderComponent={props.children}
       showsVerticalScrollIndicator={false}
       style={styles.list}
       data={props.storeList}

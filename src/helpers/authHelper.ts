@@ -17,17 +17,20 @@ axiosRetry(client, {
   retries: 3,
   retryDelay: () => 2496,
   onRetry: (retryCount, error) => {
-    console.log(`Retry No. ${retryCount}`);
-    console.log('this is err b4 retry');
-    console.log(error);
-    console.log('------------------------------------------------------');
+    //console.log(`Retry No. ${retryCount}`);
+    //console.log('this is err b4 retry');
+    //console.log(error);
+    //console.log('------------------------------------------------------');
   },
-  retryCondition: () => {
-    return true;
+  retryCondition: error => {
+    if (error.response) {
+      return error.response.status === 403;
+    }
+    return false;
   },
 });
 
-console.log('client made');
+//console.log('client made');
 
 async function lmaoded3(tokenUri: any): Promise<void> {
   tokenUri = new URLSearchParams(tokenUri.substring(tokenUri.indexOf('#') + 1));
@@ -37,42 +40,48 @@ async function lmaoded3(tokenUri: any): Promise<void> {
   await SecureStore.setItemAsync('val_id_token', idToken);
   let playerData = JSON.parse(base64.decode(accToken.split('.')[1]));
   await AsyncStorage.setItem('playerUuid', playerData.sub);
-  console.log('Tokens stored');
+  //console.log('Tokens stored');
 }
 
-function lmaoded2(): void {
+function lmaoded2(user, pwd, shard, setSuccess, setFail): void {
   client
     .put('https://auth.riotgames.com/api/v1/authorization', {
       type: 'auth',
-      username: 'xyz69OP',
-      password: 'Aakpaakm416',
+      username: `${user}`,
+      password: `${pwd}`,
       remember: true,
     })
     .then(async res => {
-      console.log(res.status);
+      //console.log(res.status);
       if ('error' in res.data) {
-        console.log(res.data.error);
+        //console.log(res.data.error);
       }
       if (res.data.type === 'response') {
-        console.log('gsgdsdsd');
+        ////console.log('gsgdsdsd');
         const tokenUri = res.data.response.parameters.uri;
-        console.log(tokenUri);
-        //set player shard
+        ////console.log(tokenUri);
+        AsyncStorage.setItem('playerShard', shard);
         await lmaoded3(tokenUri);
       } else {
-        console.log('some error occured');
+        throw new Error('Some error occured');
       }
     })
     .catch(err => {
-      console.log('erred');
-      console.log(err);
+      //console.log('erred');
+      setFail(true);
+      //console.log(err);
     });
 }
 
-export async function lmaoded(): Promise<void> {
-  console.log('hiiiii');
+export async function lmaoded(
+  user,
+  pwd,
+  shard,
+  setSuccess,
+  setFail,
+): Promise<void> {
   await CookieManager.clearAll();
-  client
+  await client
     .post('https://auth.riotgames.com/api/v1/authorization', {
       client_id: 'riot-client',
       code_challenge: '',
@@ -85,12 +94,10 @@ export async function lmaoded(): Promise<void> {
       scope: 'openid link ban lol_region',
     })
     .then(res => {
-      console.log(res.status);
-      console.log(res.data);
-      console.log('----------------b4 lmaoded 2----------------------------');
-      lmaoded2();
+      lmaoded2(user, pwd, shard, setSuccess, setFail);
     })
     .catch(err => {
-      console.log(err);
+      //console.log(err);
+      setFail(true);
     });
 }

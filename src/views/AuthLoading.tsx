@@ -1,6 +1,10 @@
 import {Box, Heading} from 'native-base';
-import React from 'react';
+import React, {useEffect, useContext, useState} from 'react';
 import {StyleSheet, SafeAreaView} from 'react-native';
+import {useRoute, useNavigation} from '@react-navigation/native';
+import {lmaoded} from '../helpers/authHelper';
+import {fetchEnt} from '../helpers/entHelper';
+import {AuthContext} from '../helpers/AuthContext';
 
 const styles = StyleSheet.create({
   MainContainer: {
@@ -13,6 +17,43 @@ const styles = StyleSheet.create({
 });
 
 export function AuthLoading(): JSX.Element {
+  const {setLoggedIn} = useContext(AuthContext);
+  const [success, setSuccess] = useState(false);
+  const [fail, setFail] = useState(false);
+  const route = useRoute();
+  const navigation = useNavigation();
+
+  useEffect(() => {
+    async function rsoAuth() {
+      const params = route.params;
+      try {
+        await lmaoded(
+          params.userName,
+          params.pwd,
+          params.shard,
+          setSuccess,
+          setFail,
+        );
+        await fetchEnt(setSuccess, setFail);
+        ////console.log('succs');
+      } catch (e: any) {
+        ////console.log(e);
+      }
+    }
+    rsoAuth();
+  }, [route.params]);
+
+  useEffect(() => {
+    if (success) {
+      setLoggedIn(true);
+    }
+    if (fail) {
+      navigation.navigate('LoginForm', {
+        error: 'Login failed, wrong credentials or some error occured',
+      });
+    }
+  }, [fail, success]);
+
   return (
     <SafeAreaView style={styles.MainContainer}>
       <Box height="25%" alignItems="center" justifyContent="center">

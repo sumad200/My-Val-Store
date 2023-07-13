@@ -9,8 +9,12 @@ import {AuthContext} from './src/helpers/AuthContext';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {TryRetry} from './src/views/TryRetry';
+import {LoginForm} from './src/views/LoginView';
 
 const theme = extendTheme({
+  config: {
+    initialColorMode: 'dark',
+  },
   colors: {
     backgroundColor: 'red',
   },
@@ -50,7 +54,7 @@ export default function App() {
       let eTokenFound =
         (await SecureStore.getItemAsync('val_ent_token')) !== null;
       let uuidFound = (await AsyncStorage.getItem('playerUuid')) !== null;
-      setLoggedIn(!(aTokenFound && eTokenFound && uuidFound));
+      setLoggedIn(aTokenFound && eTokenFound && uuidFound);
     }
 
     fetchMyAPI();
@@ -71,13 +75,13 @@ export default function App() {
             {loggedIn === false && (
               <>
                 <Stack.Screen
-                  name="AuthWait"
-                  component={AuthLoading}
+                  name="LoginForm"
+                  component={LoginForm}
                   options={{headerShown: false}}
                 />
                 <Stack.Screen
-                  name="Login"
-                  component={TryRetry}
+                  name="AuthWait"
+                  component={AuthLoading}
                   options={{headerShown: false}}
                 />
               </>

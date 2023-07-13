@@ -14,11 +14,12 @@ import {Heading, Box, Text} from 'native-base';
 import {dailyOffersHelper} from '../helpers/dailyOffersHelper';
 import {StoreList} from '../components/StoreList';
 import axios, {AxiosInstance} from 'axios';
-import {TimerView} from '../components/StoreTimer';
 import {featuredHelper} from '../helpers/featuredHelper';
 import * as SecureStore from 'expo-secure-store';
 import {AuthContext} from '../helpers/AuthContext';
 import {FeatureView} from './FeatureView';
+import {FeaturedHeader} from '../components/FeaturedHeader';
+import {DailyHeader} from '../components/DailyHeader';
 
 const styles = StyleSheet.create({
   MainContainer: {
@@ -30,12 +31,12 @@ const styles = StyleSheet.create({
   },
 });
 
-const FirstRoute = () => <TryRetry />;
-
 const ThirdRoute = props => (
   <View style={{flex: 1, backgroundColor: 'black'}}>
     <View>
-      <TimerView mode="daily" endDate={props.endTime} />
+      <Text fontSize="lg" color="white">
+        Sadge, No Night Market Available
+      </Text>
     </View>
   </View>
 );
@@ -49,6 +50,7 @@ async function gameDataHeaders() {
   let authToken = await SecureStore.getItemAsync('val_access_token');
   walletUrl = await getWalletUrl();
   storeUrl = await getStoreUrl();
+  //console.log(storeUrl);
 
   client = axios.create({
     headers: {
@@ -59,12 +61,13 @@ async function gameDataHeaders() {
 }
 
 export function StoreTabs() {
-  console.log('tabs ran');
+  //console.log('tabs ran');
   const {setLoggedIn} = useContext(AuthContext);
+  const [store, setStore] = useState({});
   const [dailyStore, setDailyStore] = useState([]);
   const [featured, setFeatured] = useState([]);
   const [offersTimer, setOffersTimer] = useState();
-  const [featuredTimer, setFeaturedTimer] = useState();
+  const [reqTime, setReqTime] = useState();
   const [allSkinData, setAllSkinData] = useState([]);
   const [vpBalance, setVpBalance] = useState(69420);
   const [rpBalance, setRpBalance] = useState(99999);
@@ -80,11 +83,10 @@ export function StoreTabs() {
           setRpBalance(balances['e59aa87c-4cbf-517a-5983-6e81511be9b7']);
         })
         .catch(err => {
-          console.log('lully');
           if (err.response) {
             if (err.response.status === 400) {
-              console.log('relogin needed');
-              //setLoggedIn(false);
+              //console.log('relogin needed');
+              setLoggedIn(false);
             }
           }
         });
@@ -100,18 +102,40 @@ export function StoreTabs() {
         setAllSkinData(skins);
       })
       .catch(err => {
-        console.log(`Oh No! some error - ${err}`);
+        //console.log(`Oh No! some error - ${err}`);
       });
   }, []);
 
   useEffect(() => {
-    console.log('refreshed resp from rito api');
-    let now = new Date().getTime();
-    setFeaturedTimer(now + 100 * 1000);
-    setOffersTimer(now + 10 * 1000);
-    setDailyStore(dailyOffersHelper(allSkinData));
-    setFeatured(featuredHelper(allSkinData));
-  }, [allSkinData]);
+    async function fetchStore() {
+      await gameDataHeaders();
+      client
+        .get(storeUrl)
+        .then(res => {
+          //console.log(res.data);
+          setStore(res.data);
+          let now = new Date().getTime();
+          setReqTime(now);
+          setOffersTimer(
+            now +
+              res.data.SkinsPanelLayout
+                .SingleItemOffersRemainingDurationInSeconds *
+                1000,
+          );
+        })
+        .catch(err => {
+          //console.log(`Oh No! some error - ${err}`);
+        });
+    }
+    fetchStore();
+  }, [allSkinData, storeUrl]);
+
+  useEffect(() => {
+    if (allSkinData.length > 0 && Object.keys(store).length > 0) {
+      setDailyStore(dailyOffersHelper(store, allSkinData));
+      setFeatured(featuredHelper(store, allSkinData));
+    }
+  }, [allSkinData, store]);
 
   const renderTabBar = (props: any) => (
     <TabBar
@@ -138,12 +162,16 @@ export function StoreTabs() {
   const renderScene = ({route}) => {
     switch (route.key) {
       case 'first':
-        return <FeatureView featuredStore={featured} />;
+        return <FeatureView now={reqTime} featuredStore={featured} />;
       case 'second':
-        return <StoreList storeList={dailyStore} />;
+        return (
+          <StoreList storeList={dailyStore}>
+            <DailyHeader timeLeft={offersTimer} />
+          </StoreList>
+        );
       case 'se':
         if (offersTimer) {
-          return <ThirdRoute endTime={offersTimer} />;
+          return <ThirdRoute />;
         }
         return null;
     }
