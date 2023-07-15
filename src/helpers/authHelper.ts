@@ -43,8 +43,8 @@ async function lmaoded3(tokenUri: any): Promise<void> {
   //console.log('Tokens stored');
 }
 
-function lmaoded2(user, pwd, shard, setSuccess, setFail): void {
-  client
+async function lmaoded2(user, pwd, shard, setSuccess, setFail): void {
+  await client
     .put('https://auth.riotgames.com/api/v1/authorization', {
       type: 'auth',
       username: `${user}`,
@@ -93,8 +93,8 @@ export async function lmaoded(
       response_type: 'token id_token',
       scope: 'openid link ban lol_region',
     })
-    .then(res => {
-      lmaoded2(user, pwd, shard, setSuccess, setFail);
+    .then(async (res) => {
+      await lmaoded2(user, pwd, shard, setSuccess, setFail);
     })
     .catch(err => {
       //console.log(err);

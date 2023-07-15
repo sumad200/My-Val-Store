@@ -1,19 +1,19 @@
-#Thu Jul 13 10:52:15 IST 2023
+#Sat Jul 15 20:58:59 IST 2023
 path.4=14/classes.dex
 path.3=12/classes.dex
 path.2=0/classes.dex
 path.1=0/classes.dex
 path.5=classes2.dex
 path.0=classes.dex
-base.4=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.2=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.1=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=C\:\\Android\\prac\\rn-prac\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=C\:\\Android\\prac\\rn-prac\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.2=C\:\\Android\\prac\\rn-prac\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Android\\prac\\rn-prac\\android\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.0=C\:\\Android\\prac\\rn-prac\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex
-base.5=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.5=C\:\\Android\\prac\\rn-prac\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex

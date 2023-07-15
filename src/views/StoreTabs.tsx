@@ -18,7 +18,6 @@ import {featuredHelper} from '../helpers/featuredHelper';
 import * as SecureStore from 'expo-secure-store';
 import {AuthContext} from '../helpers/AuthContext';
 import {FeatureView} from './FeatureView';
-import {FeaturedHeader} from '../components/FeaturedHeader';
 import {DailyHeader} from '../components/DailyHeader';
 
 const styles = StyleSheet.create({
@@ -32,7 +31,7 @@ const styles = StyleSheet.create({
 });
 
 const ThirdRoute = props => (
-  <View style={{flex: 1, backgroundColor: 'black'}}>
+  <View style={{flex: 1, backgroundColor: 'black', alignItems: 'center',justifyContent:'center'}}>
     <View>
       <Text fontSize="lg" color="white">
         Sadge, No Night Market Available
@@ -165,9 +164,10 @@ export function StoreTabs() {
         return <FeatureView now={reqTime} featuredStore={featured} />;
       case 'second':
         return (
-          <StoreList storeList={dailyStore}>
-            <DailyHeader timeLeft={offersTimer} />
-          </StoreList>
+          <>
+          <DailyHeader timeLeft={offersTimer} />
+          <StoreList storeList={dailyStore}/>
+          </>
         );
       case 'se':
         if (offersTimer) {
@@ -194,7 +194,7 @@ export function StoreTabs() {
             pt="3.5"
             pb="2.5"
             pl="1.5">
-            My Store
+            My Val Store
           </Heading>
           <Box pt="2.5" pb="2.5">
             <Box flexDirection="row" p="0" m="0">

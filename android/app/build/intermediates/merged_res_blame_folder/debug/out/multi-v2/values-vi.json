@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.rnprac1.app-mergeDebugResources-33:/values-vi/values-vi.xml",
+            "outputFile": "com.rnprac1.app-mergeDebugResources-3:/values-vi/values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sudhan\\.gradle\\caches\\transforms-3\\0c4f0022af882e91b23b846396a11d79\\transformed\\biometric-1.1.0\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,162,257,373,501,631,763,877,1012,1118,1256,1402",
-                        "endColumns": "106,94,115,127,129,131,113,134,105,137,145,122",
-                        "endOffsets": "157,252,368,496,626,758,872,1007,1113,1251,1397,1520"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2798,2905,3000,3116,3244,3374,3506,3620,3755,3861,3999,4145",
-                        "endColumns": "106,94,115,127,129,131,113,134,105,137,145,122",
-                        "endOffsets": "2900,2995,3111,3239,3369,3501,3615,3750,3856,3994,4140,4263"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sudhan\\.gradle\\caches\\transforms-3\\948c3612aee17d86e5c180e70c3ba7eb\\transformed\\core-1.7.0\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Madhu Sudhan\\.gradle\\caches\\transforms-3\\948c3612aee17d86e5c180e70c3ba7eb\\transformed\\core-1.7.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sudhan\\.gradle\\caches\\transforms-3\\fe91d9b251e22e86487c8db34191c908\\transformed\\appcompat-1.4.1\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Madhu Sudhan\\.gradle\\caches\\transforms-3\\0c4f0022af882e91b23b846396a11d79\\transformed\\biometric-1.1.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,257,373,501,631,763,877,1012,1118,1256,1402",
+                        "endColumns": "106,94,115,127,129,131,113,134,105,137,145,122",
+                        "endOffsets": "157,252,368,496,626,758,872,1007,1113,1251,1397,1520"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2798,2905,3000,3116,3244,3374,3506,3620,3755,3861,3999,4145",
+                        "endColumns": "106,94,115,127,129,131,113,134,105,137,145,122",
+                        "endOffsets": "2900,2995,3111,3239,3369,3501,3615,3750,3856,3994,4140,4263"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Madhu Sudhan\\.gradle\\caches\\transforms-3\\fe91d9b251e22e86487c8db34191c908\\transformed\\appcompat-1.4.1\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

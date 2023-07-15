@@ -1,22 +1,27 @@
 import React from 'react';
 import {StoreList} from '../components/StoreList';
-import {FeaturedHeader} from '../components/FeaturedHeader';
+
+type bundleHeader = Record<string, any>;
 
 function FeatureViewb4(props: any) {
+
+  let listData = [];
+
+  props.featuredStore.forEach(ele => {
+    let headerData: bundleHeader = {};
+    headerData['uuid'] =  ele.bundleUuid;
+    headerData['timeLeft'] = props.now + ele.timeLeft * 1000;
+    headerData['cost']= ele.combinedCost;
+    headerData['featured'] = true;
+    ele.skins.unshift(headerData);
+    //console.log(ele.skins);
+    listData = listData.concat(ele.skins);
+  });
+
+  //console.log(listData);
+
   return (
-    <>
-      {props.featuredStore.map((ele: any) => (
-        <>
-          <StoreList storeList={ele.skins}>
-            <FeaturedHeader
-              uuid={ele.bundleUuid}
-              timeLeft={props.now + ele.timeLeft * 1000}
-              cost={ele.combinedCost}
-            />
-          </StoreList>
-        </>
-      ))}
-    </>
+    <StoreList storeList={listData}/>
   );
 }
 

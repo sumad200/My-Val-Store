@@ -1,12 +1,10 @@
 import React from 'react';
-import {FlatList, StyleSheet, View} from 'react-native';
+import {View} from 'react-native';
 import {StoreCard} from './StoreCard';
+import {FeaturedHeader} from './FeaturedHeader';
+import {FlashList} from '@shopify/flash-list';
 
-const styles = StyleSheet.create({
-  list: {
-    paddingHorizontal: 7,
-  },
-});
+
 
 function Separator() {
   // eslint-disable-next-line react-native/no-inline-styles
@@ -15,20 +13,25 @@ function Separator() {
 
 function StoreListb4(props: any) {
   return (
-    <FlatList
-      ListHeaderComponent={props.children}
+    <FlashList
       showsVerticalScrollIndicator={false}
-      style={styles.list}
       data={props.storeList}
+      estimatedItemSize={7}
       ItemSeparatorComponent={Separator}
-      renderItem={(ele: any) => (
+      renderItem={({item, index}) => {
+        if(item.featured === true){
+          return(
+            <FeaturedHeader uuid={item.uuid} cost={item.cost} timeLeft={item.timeLeft} />
+          )
+        }
+        return(
         <StoreCard
-          price={ele.item.price}
-          tierUuid={ele.item.contentTierUuid}
-          itemName={ele.item.displayName}
-          imgSrc={ele.item.displayIcon}
+          price={item.price}
+          tierUuid={item.contentTierUuid}
+          itemName={item.displayName}
+          imgSrc={item.displayIcon}
         />
-      )}
+        )}}
     />
   );
 }

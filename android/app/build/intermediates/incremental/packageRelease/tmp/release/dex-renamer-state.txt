@@ -1,7 +1,7 @@
-#Thu Jul 13 11:28:57 IST 2023
-base.1=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+#Sat Jul 15 22:06:25 IST 2023
+base.1=C\:\\Android\\prac\\rn-prac\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
 path.1=classes2.dex
-base.0=C\:\\Users\\sudhan\\prac\\rnprac\\rnprac1\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+base.0=C\:\\Android\\prac\\rn-prac\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

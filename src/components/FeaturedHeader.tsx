@@ -14,7 +14,7 @@ export function FeaturedHeader(props: any) {
   }, [props.uuid]);
 
   return (
-    <Box m="2" p="3" justifyContent="center" alignItems="center">
+    <Box m="1" p="1" justifyContent="center" alignItems="center">
       <Heading
         textAlign="center"
         textTransform="uppercase"
