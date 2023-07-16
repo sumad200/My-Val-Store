@@ -7,7 +7,9 @@ Check your daily valorant store without having to open the game, clean UI with p
 ## Demo
 
 
-https://github.com/sumad200/My-Val-Store/assets/92201689/a7a62643-8c05-42a6-8a5d-07cb797ad8f4
+https://github.com/sumad200/My-Val-Store/assets/92201689/c21e92d7-6aea-4c1b-9cb2-4c33fb190e40
+
+
 
 
 
