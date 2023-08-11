@@ -1,7 +1,4 @@
-#Fri Aug 11 12:34:59 IST 2023
-base.1=C\:\\Android\\My-Val-Store\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
-path.1=classes2.dex
-base.0=C\:\\Android\\My-Val-Store\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-renamed.1=classes2.dex
+#Fri Aug 11 13:16:44 IST 2023
+base.0=C\:\\Android\\My-Val-Store\\android\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
