@@ -8,12 +8,12 @@ Download the apk <a href="https://raw.githubusercontent.com/sumad200/My-Val-Stor
 
 <p align="center">
   <img alt="Login" src="./screenshots/1.png?raw=true" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
+
   <img alt="Featured" src="./screenshots/2.png?raw=true" width="45%">
 </p>
 <p align="center">
   <img alt="Daily Store" src="./screenshots/3.png?raw=true" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
+
   <img alt="Night Market" src="./screenshots/4.png?raw=true" width="45%">
 </p>
 
