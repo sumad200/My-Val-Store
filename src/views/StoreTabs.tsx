@@ -18,7 +18,9 @@ import {featuredHelper} from '../helpers/featuredHelper';
 import * as SecureStore from 'expo-secure-store';
 import {AuthContext} from '../helpers/AuthContext';
 import {FeatureView} from './FeatureView';
-import {DailyHeader} from '../components/DailyHeader';
+import {StoreTitleHeader} from '../components/DailyHeader';
+import {NoNightMarket} from '../components/NoNightMarket';
+import {nightMarketHelper} from '../helpers/nightMarketHelper';
 
 const styles = StyleSheet.create({
   MainContainer: {
@@ -29,16 +31,6 @@ const styles = StyleSheet.create({
     paddingRight: 5,
   },
 });
-
-const ThirdRoute = props => (
-  <View style={{flex: 1, backgroundColor: 'black', alignItems: 'center',justifyContent:'center'}}>
-    <View>
-      <Text fontSize="lg" color="white">
-        Sadge, No Night Market Available
-      </Text>
-    </View>
-  </View>
-);
 
 let client: AxiosInstance;
 let walletUrl: string;
@@ -64,8 +56,10 @@ export function StoreTabs() {
   const {setLoggedIn} = useContext(AuthContext);
   const [store, setStore] = useState({});
   const [dailyStore, setDailyStore] = useState([]);
+  const [nightMarket, setNightMarket] = useState([]);
   const [featured, setFeatured] = useState([]);
   const [offersTimer, setOffersTimer] = useState();
+  const [nightMarketTimer, setNightMarketTimer] = useState();
   const [reqTime, setReqTime] = useState();
   const [allSkinData, setAllSkinData] = useState([]);
   const [vpBalance, setVpBalance] = useState(69420);
@@ -121,18 +115,25 @@ export function StoreTabs() {
                 .SingleItemOffersRemainingDurationInSeconds *
                 1000,
           );
+          if (res.data.BonusStore) {
+            setNightMarketTimer(
+              now +
+                res.data.BonusStore.BonusStoreRemainingDurationInSeconds * 1000,
+            );
+          }
         })
         .catch(err => {
           //console.log(`Oh No! some error - ${err}`);
         });
     }
     fetchStore();
-  }, [allSkinData, storeUrl]);
+  }, [storeUrl]);
 
   useEffect(() => {
     if (allSkinData.length > 0 && Object.keys(store).length > 0) {
       setDailyStore(dailyOffersHelper(store, allSkinData));
       setFeatured(featuredHelper(store, allSkinData));
+      setNightMarket(nightMarketHelper(store, allSkinData));
     }
   }, [allSkinData, store]);
 
@@ -165,15 +166,24 @@ export function StoreTabs() {
       case 'second':
         return (
           <>
-          <DailyHeader timeLeft={offersTimer} />
-          <StoreList storeList={dailyStore}/>
+            <StoreTitleHeader title="DAILY OFFERS" timeLeft={offersTimer} />
+            <StoreList storeList={dailyStore} />
           </>
         );
       case 'se':
-        if (offersTimer) {
-          return <ThirdRoute />;
+        if (nightMarket.length <= 0) {
+          return <NoNightMarket />;
+        } else {
+          return (
+            <>
+              <StoreTitleHeader
+                title="NIGHT.MARKET"
+                timeLeft={nightMarketTimer}
+              />
+              <StoreList storeList={nightMarket} />
+            </>
+          );
         }
-        return null;
     }
   };
 

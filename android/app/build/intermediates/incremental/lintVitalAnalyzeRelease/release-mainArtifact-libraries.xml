@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="C:\Android\prac\rn-prac\android@@:react-native-pager-view::release"
-      jars="C:\Android\prac\rn-prac\node_modules\react-native-pager-view\android\build\.transforms\b220d95772e70d085e31dd33e544b2a3\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\react-native-pager-view\android\build\.transforms\b220d95772e70d085e31dd33e544b2a3\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:react-native-pager-view::release"
+      jars="C:\Android\My-Val-Store\node_modules\react-native-pager-view\android\build\.transforms\6c9f3c98a5da1d8f069a97b5cb8eca16\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\react-native-pager-view\android\build\.transforms\6c9f3c98a5da1d8f069a97b5cb8eca16\transformed\out\jars\libs\R.jar"
       resolved="rnprac1:react-native-pager-view:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\react-native-pager-view\android\build\.transforms\b220d95772e70d085e31dd33e544b2a3\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\react-native-pager-view\android\build\.transforms\6c9f3c98a5da1d8f069a97b5cb8eca16\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,10 +13,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:react-native-restart::release"
-      jars="C:\Android\prac\rn-prac\node_modules\react-native-restart\android\build\.transforms\b05b4d3ace86f4f1a7cc3bf3fbc0bf21\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\react-native-restart\android\build\.transforms\b05b4d3ace86f4f1a7cc3bf3fbc0bf21\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:react-native-restart::release"
+      jars="C:\Android\My-Val-Store\node_modules\react-native-restart\android\build\.transforms\907e20a625dee3b15d880f63c44246b0\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\react-native-restart\android\build\.transforms\907e20a625dee3b15d880f63c44246b0\transformed\out\jars\libs\R.jar"
       resolved="rnprac1:react-native-restart:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\react-native-restart\android\build\.transforms\b05b4d3ace86f4f1a7cc3bf3fbc0bf21\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\react-native-restart\android\build\.transforms\907e20a625dee3b15d880f63c44246b0\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -39,10 +39,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:expo::release"
-      jars="C:\Android\prac\rn-prac\node_modules\expo\android\build\.transforms\2053bdb1a002370688b04ade923c7211\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\expo\android\build\.transforms\2053bdb1a002370688b04ade923c7211\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:expo::release"
+      jars="C:\Android\My-Val-Store\node_modules\expo\android\build\.transforms\21c2d15d3285e42f61100315f25addab\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\expo\android\build\.transforms\21c2d15d3285e42f61100315f25addab\transformed\out\jars\libs\R.jar"
       resolved="host.exp.exponent:expo:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\expo\android\build\.transforms\2053bdb1a002370688b04ade923c7211\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\expo\android\build\.transforms\21c2d15d3285e42f61100315f25addab\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -52,10 +52,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:expo-file-system::release"
-      jars="C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\.transforms\0eb963e7b34d484c63ed74f5adbc01ad\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\.transforms\0eb963e7b34d484c63ed74f5adbc01ad\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:expo-file-system::release"
+      jars="C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\.transforms\9625849c5238b1c283a7bcb7432ef8be\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\.transforms\9625849c5238b1c283a7bcb7432ef8be\transformed\out\jars\libs\R.jar"
       resolved="host.exp.exponent:expo-file-system:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\.transforms\0eb963e7b34d484c63ed74f5adbc01ad\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\.transforms\9625849c5238b1c283a7bcb7432ef8be\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -117,10 +117,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:react-native-async-storage_async-storage::release"
-      jars="C:\Android\prac\rn-prac\node_modules\@react-native-async-storage\async-storage\android\build\.transforms\1c3ad870f11f4d87ce15c8d8f7a939e0\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\@react-native-async-storage\async-storage\android\build\.transforms\1c3ad870f11f4d87ce15c8d8f7a939e0\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:react-native-async-storage_async-storage::release"
+      jars="C:\Android\My-Val-Store\node_modules\@react-native-async-storage\async-storage\android\build\.transforms\cf95117286656f70073e5c5a86dc8955\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\@react-native-async-storage\async-storage\android\build\.transforms\cf95117286656f70073e5c5a86dc8955\transformed\out\jars\libs\R.jar"
       resolved="rnprac1:react-native-async-storage_async-storage:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\@react-native-async-storage\async-storage\android\build\.transforms\1c3ad870f11f4d87ce15c8d8f7a939e0\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\@react-native-async-storage\async-storage\android\build\.transforms\cf95117286656f70073e5c5a86dc8955\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -130,10 +130,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:react-native-cookies_cookies::release"
-      jars="C:\Android\prac\rn-prac\node_modules\@react-native-cookies\cookies\android\build\.transforms\69fb824e0c3958ed2ac8016d5b2b01ff\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\@react-native-cookies\cookies\android\build\.transforms\69fb824e0c3958ed2ac8016d5b2b01ff\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:react-native-cookies_cookies::release"
+      jars="C:\Android\My-Val-Store\node_modules\@react-native-cookies\cookies\android\build\.transforms\5c7709c4602474dee25a661261d5cc46\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\@react-native-cookies\cookies\android\build\.transforms\5c7709c4602474dee25a661261d5cc46\transformed\out\jars\libs\R.jar"
       resolved="rnprac1:react-native-cookies_cookies:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\@react-native-cookies\cookies\android\build\.transforms\69fb824e0c3958ed2ac8016d5b2b01ff\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\@react-native-cookies\cookies\android\build\.transforms\5c7709c4602474dee25a661261d5cc46\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -143,10 +143,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:shopify_flash-list::release"
-      jars="C:\Android\prac\rn-prac\node_modules\@shopify\flash-list\android\build\.transforms\245ead56debe8d1f5a27607904314fb3\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\@shopify\flash-list\android\build\.transforms\245ead56debe8d1f5a27607904314fb3\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:shopify_flash-list::release"
+      jars="C:\Android\My-Val-Store\node_modules\@shopify\flash-list\android\build\.transforms\2dde55152992ebcb9cef1386c1d49887\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\@shopify\flash-list\android\build\.transforms\2dde55152992ebcb9cef1386c1d49887\transformed\out\jars\libs\R.jar"
       resolved="rnprac1:shopify_flash-list:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\@shopify\flash-list\android\build\.transforms\245ead56debe8d1f5a27607904314fb3\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\@shopify\flash-list\android\build\.transforms\2dde55152992ebcb9cef1386c1d49887\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -156,10 +156,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:react-native-safe-area-context::release"
-      jars="C:\Android\prac\rn-prac\node_modules\react-native-safe-area-context\android\build\.transforms\4eea27be35c6f603646b27340e4220e9\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\react-native-safe-area-context\android\build\.transforms\4eea27be35c6f603646b27340e4220e9\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:react-native-safe-area-context::release"
+      jars="C:\Android\My-Val-Store\node_modules\react-native-safe-area-context\android\build\.transforms\90016f32a00261b51c18d6bb2f53e2d9\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\react-native-safe-area-context\android\build\.transforms\90016f32a00261b51c18d6bb2f53e2d9\transformed\out\jars\libs\R.jar"
       resolved="rnprac1:react-native-safe-area-context:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\react-native-safe-area-context\android\build\.transforms\4eea27be35c6f603646b27340e4220e9\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\react-native-safe-area-context\android\build\.transforms\90016f32a00261b51c18d6bb2f53e2d9\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -169,10 +169,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:react-native-screens::release"
-      jars="C:\Android\prac\rn-prac\node_modules\react-native-screens\android\build\.transforms\487c80175fe812dafe47ea758f408055\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\react-native-screens\android\build\.transforms\487c80175fe812dafe47ea758f408055\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:react-native-screens::release"
+      jars="C:\Android\My-Val-Store\node_modules\react-native-screens\android\build\.transforms\9f8f6e4b27806a8ae1e637f0204730fd\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\react-native-screens\android\build\.transforms\9f8f6e4b27806a8ae1e637f0204730fd\transformed\out\jars\libs\R.jar"
       resolved="rnprac1:react-native-screens:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\react-native-screens\android\build\.transforms\487c80175fe812dafe47ea758f408055\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\react-native-screens\android\build\.transforms\9f8f6e4b27806a8ae1e637f0204730fd\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -182,10 +182,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:react-native-svg::release"
-      jars="C:\Android\prac\rn-prac\node_modules\react-native-svg\android\build\.transforms\b1eb5392aabef23918dfce1d0bcbf2c8\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\react-native-svg\android\build\.transforms\b1eb5392aabef23918dfce1d0bcbf2c8\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:react-native-svg::release"
+      jars="C:\Android\My-Val-Store\node_modules\react-native-svg\android\build\.transforms\4d1100e5c011996ce11cbf2c65a2aa0c\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\react-native-svg\android\build\.transforms\4d1100e5c011996ce11cbf2c65a2aa0c\transformed\out\jars\libs\R.jar"
       resolved="rnprac1:react-native-svg:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\react-native-svg\android\build\.transforms\b1eb5392aabef23918dfce1d0bcbf2c8\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\react-native-svg\android\build\.transforms\4d1100e5c011996ce11cbf2c65a2aa0c\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -247,10 +247,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:expo-secure-store::release"
-      jars="C:\Android\prac\rn-prac\node_modules\expo-secure-store\android\build\.transforms\b60ed3cd350feddb7c06d5d0e1e7353d\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\expo-secure-store\android\build\.transforms\b60ed3cd350feddb7c06d5d0e1e7353d\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:expo-secure-store::release"
+      jars="C:\Android\My-Val-Store\node_modules\expo-secure-store\android\build\.transforms\25d5381053bdaad568f62b598f79bc25\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\expo-secure-store\android\build\.transforms\25d5381053bdaad568f62b598f79bc25\transformed\out\jars\libs\R.jar"
       resolved="host.exp.exponent:expo-secure-store:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\expo-secure-store\android\build\.transforms\b60ed3cd350feddb7c06d5d0e1e7353d\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\expo-secure-store\android\build\.transforms\25d5381053bdaad568f62b598f79bc25\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -312,10 +312,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:expo-modules-core::release"
-      jars="C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\.transforms\759bc6811ca76502c942c2527bd6b14e\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\.transforms\759bc6811ca76502c942c2527bd6b14e\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:expo-modules-core::release"
+      jars="C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\.transforms\e2861beb49b603e2e97d9838e5b5cb61\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\.transforms\e2861beb49b603e2e97d9838e5b5cb61\transformed\out\jars\libs\R.jar"
       resolved="host.exp.exponent:expo-modules-core:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\.transforms\759bc6811ca76502c942c2527bd6b14e\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\.transforms\e2861beb49b603e2e97d9838e5b5cb61\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -485,10 +485,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:expo-constants::release"
-      jars="C:\Android\prac\rn-prac\node_modules\expo-constants\android\build\.transforms\4fb713b3dbe109c4a5e1e043bafb1413\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\expo-constants\android\build\.transforms\4fb713b3dbe109c4a5e1e043bafb1413\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:expo-constants::release"
+      jars="C:\Android\My-Val-Store\node_modules\expo-constants\android\build\.transforms\c9af8bbb7cc461cde572520d25c04d54\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\expo-constants\android\build\.transforms\c9af8bbb7cc461cde572520d25c04d54\transformed\out\jars\libs\R.jar"
       resolved="host.exp.exponent:expo-constants:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\expo-constants\android\build\.transforms\4fb713b3dbe109c4a5e1e043bafb1413\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\expo-constants\android\build\.transforms\c9af8bbb7cc461cde572520d25c04d54\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -967,10 +967,10 @@
       jars="C:\Users\Madhu Sudhan\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar"
       resolved="commons-codec:commons-codec:1.10"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:expo-application::release"
-      jars="C:\Android\prac\rn-prac\node_modules\expo-application\android\build\.transforms\e1595592ef49448833a6f29dac2f705f\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\expo-application\android\build\.transforms\e1595592ef49448833a6f29dac2f705f\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:expo-application::release"
+      jars="C:\Android\My-Val-Store\node_modules\expo-application\android\build\.transforms\76bb670b83e4f01baaf63c89b6866c09\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\expo-application\android\build\.transforms\76bb670b83e4f01baaf63c89b6866c09\transformed\out\jars\libs\R.jar"
       resolved="host.exp.exponent:expo-application:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\expo-application\android\build\.transforms\e1595592ef49448833a6f29dac2f705f\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\expo-application\android\build\.transforms\76bb670b83e4f01baaf63c89b6866c09\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -980,10 +980,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:expo-font::release"
-      jars="C:\Android\prac\rn-prac\node_modules\expo-font\android\build\.transforms\2ded6deb6381c54dfd7b2c1b402e4a35\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\expo-font\android\build\.transforms\2ded6deb6381c54dfd7b2c1b402e4a35\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:expo-font::release"
+      jars="C:\Android\My-Val-Store\node_modules\expo-font\android\build\.transforms\7f409f62c7cb1157ff9e9d2c468e7422\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\expo-font\android\build\.transforms\7f409f62c7cb1157ff9e9d2c468e7422\transformed\out\jars\libs\R.jar"
       resolved="host.exp.exponent:expo-font:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\expo-font\android\build\.transforms\2ded6deb6381c54dfd7b2c1b402e4a35\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\expo-font\android\build\.transforms\7f409f62c7cb1157ff9e9d2c468e7422\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -993,10 +993,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\Android\prac\rn-prac\android@@:expo-keep-awake::release"
-      jars="C:\Android\prac\rn-prac\node_modules\expo-keep-awake\android\build\.transforms\9258e9768ff8fdd5db7948a4a81ab8ca\transformed\out\jars\classes.jar;C:\Android\prac\rn-prac\node_modules\expo-keep-awake\android\build\.transforms\9258e9768ff8fdd5db7948a4a81ab8ca\transformed\out\jars\libs\R.jar"
+      name="C:\Android\My-Val-Store\android@@:expo-keep-awake::release"
+      jars="C:\Android\My-Val-Store\node_modules\expo-keep-awake\android\build\.transforms\34570fd6a93aea26088ff816bcfc1c19\transformed\out\jars\classes.jar;C:\Android\My-Val-Store\node_modules\expo-keep-awake\android\build\.transforms\34570fd6a93aea26088ff816bcfc1c19\transformed\out\jars\libs\R.jar"
       resolved="host.exp.exponent:expo-keep-awake:unspecified"
-      folder="C:\Android\prac\rn-prac\node_modules\expo-keep-awake\android\build\.transforms\9258e9768ff8fdd5db7948a4a81ab8ca\transformed\out"
+      folder="C:\Android\My-Val-Store\node_modules\expo-keep-awake\android\build\.transforms\34570fd6a93aea26088ff816bcfc1c19\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

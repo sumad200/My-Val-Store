@@ -2,7 +2,7 @@ import React from 'react';
 import {TimerView} from './StoreTimer';
 import {Box, Heading} from 'native-base';
 
-export function DailyHeader(props: any) {
+export function StoreTitleHeader(props: any) {
   return (
     <Box m="2" p="3" justifyContent="center" alignItems="center">
       <Heading
@@ -10,7 +10,7 @@ export function DailyHeader(props: any) {
         textTransform="uppercase"
         size="xl"
         color="white">
-        DAILY STORE
+        {props.title}
       </Heading>
       <Box alignItems="center">
         <TimerView endDate={props.timeLeft} />

@@ -6,29 +6,29 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
+8-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
+9-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:3:5-67
-11-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:3:22-64
+11-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:3:22-64
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
-12-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+12-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+12-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-80
-13-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-77
+13-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-80
+13-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-77
 14
 15    <queries>
-15-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-18:15
+15-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-18:15
 16
 17        <!-- Query open documents -->
 18        <intent>
-18-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:18
+18-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:18
 19            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
-19-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-79
-19-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:21-76
+19-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-79
+19-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:21-76
 20        </intent>
 21    </queries>
 22
@@ -43,71 +43,71 @@
 25-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\8438ee054f730cfcca9fb57d884d0a1f\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
 26
 27    <application
-27-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:5:5-24:19
+27-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:5:5-24:19
 28        android:name="com.rnprac1.MainApplication"
-28-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:6:7-38
+28-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:6:7-38
 29        android:allowBackup="false"
-29-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:10:7-34
+29-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:10:7-34
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.7.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\948c3612aee17d86e5c180e70c3ba7eb\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 31        android:icon="@mipmap/ic_launcher"
-31-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:8:7-41
+31-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:8:7-41
 32        android:label="@string/app_name"
-32-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:7:7-39
+32-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:7:7-39
 33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:9:7-52
+33-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:9:7-52
 34        android:theme="@style/AppTheme" >
-34-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:11:7-38
+34-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:11:7-38
 35        <activity
-35-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:12:7-23:18
+35-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:12:7-23:18
 36            android:name="com.rnprac1.MainActivity"
-36-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:13:9-37
+36-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:13:9-37
 37            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-37-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:15:9-118
+37-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:15:9-118
 38            android:exported="true"
-38-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:18:9-32
+38-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:18:9-32
 39            android:label="@string/app_name"
-39-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:14:9-41
+39-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:14:9-41
 40            android:launchMode="singleTask"
-40-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:16:9-40
+40-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:16:9-40
 41            android:windowSoftInputMode="adjustResize" >
-41-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:17:9-51
+41-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:17:9-51
 42            <intent-filter>
-42-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:19:9-22:25
+42-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:19:9-22:25
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:20:13-65
-43-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:20:21-62
+43-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:20:13-65
+43-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:20:21-62
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:21:13-73
-45-->C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:21:23-70
+45-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:21:13-73
+45-->C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:21:23-70
 46            </intent-filter>
 47        </activity>
 48
 49        <provider
-49-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-30:20
+49-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-30:20
 50            android:name="expo.modules.filesystem.FileSystemFileProvider"
-50-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-74
+50-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-74
 51            android:authorities="com.rnprac1.FileSystemFileProvider"
-51-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-74
+51-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-74
 52            android:exported="false"
-52-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+52-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
 53            android:grantUriPermissions="true" >
-53-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-47
+53-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-47
 54            <meta-data
-54-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-29:70
+54-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-29:70
 55                android:name="android.support.FILE_PROVIDER_PATHS"
-55-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-67
+55-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-67
 56                android:resource="@xml/file_system_provider_paths" />
-56-->[:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-67
+56-->[:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-67
 57        </provider>
 58
 59        <meta-data
-59-->[:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-10:89
+59-->[:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-10:89
 60            android:name="org.unimodules.core.AppLoader#react-native-headless"
-60-->[:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-79
+60-->[:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-79
 61            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
-61-->[:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-86
+61-->[:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-86
 62
 63        <provider
 63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\6a062b21418219d1f36fa88bd61c9016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20

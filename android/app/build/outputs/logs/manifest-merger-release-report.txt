@@ -1,30 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-MERGED from [:react-native-async-storage_async-storage] C:\Android\prac\rn-prac\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-cookies_cookies] C:\Android\prac\rn-prac\node_modules\@react-native-cookies\cookies\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:expo] C:\Android\prac\rn-prac\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-pager-view] C:\Android\prac\rn-prac\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-restart] C:\Android\prac\rn-prac\node_modules\react-native-restart\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-safe-area-context] C:\Android\prac\rn-prac\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-screens] C:\Android\prac\rn-prac\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-svg] C:\Android\prac\rn-prac\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:expo-application] C:\Android\prac\rn-prac\node_modules\expo-application\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:expo-constants] C:\Android\prac\rn-prac\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-33:12
-MERGED from [:expo-font] C:\Android\prac\rn-prac\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:expo-keep-awake] C:\Android\prac\rn-prac\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:expo-secure-store] C:\Android\prac\rn-prac\node_modules\expo-secure-store\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
-MERGED from [:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-13:12
+ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+MERGED from [:react-native-async-storage_async-storage] C:\Android\My-Val-Store\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-cookies_cookies] C:\Android\My-Val-Store\node_modules\@react-native-cookies\cookies\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo] C:\Android\My-Val-Store\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-pager-view] C:\Android\My-Val-Store\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-restart] C:\Android\My-Val-Store\node_modules\react-native-restart\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] C:\Android\My-Val-Store\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] C:\Android\My-Val-Store\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-svg] C:\Android\My-Val-Store\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-application] C:\Android\My-Val-Store\node_modules\expo-application\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-constants] C:\Android\My-Val-Store\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-33:12
+MERGED from [:expo-font] C:\Android\My-Val-Store\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-keep-awake] C:\Android\My-Val-Store\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-secure-store] C:\Android\My-Val-Store\node_modules\expo-secure-store\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.react:react-android:0.71.7] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\18b8b0a321af4aa7cf84a592e4edca15\transformed\jetified-react-android-0.71.7-release\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\21d7360e31bcf3753506e5a4aa5c9d89\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\ae748c1a1cc9305c65aad30425a8a692\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\a9881cbeeae2ba8cf79ff14cbd8df7c2\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.react:hermes-android:0.71.7] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\b81903317bdd46d1770aa9dc5ca39007\transformed\jetified-hermes-android-0.71.7-release\AndroidManifest.xml:2:1-9:12
-MERGED from [:shopify_flash-list] C:\Android\prac\rn-prac\node_modules\@shopify\flash-list\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:shopify_flash-list] C:\Android\My-Val-Store\node_modules\@shopify\flash-list\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\248e284d261b27d6199c900cbe0e6dbc\transformed\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\0c4f0022af882e91b23b846396a11d79\transformed\biometric-1.1.0\AndroidManifest.xml:17:1-29:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\fe91d9b251e22e86487c8db34191c908\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -93,35 +93,35 @@ MERGED from [com.jakewharton:process-phoenix:2.1.2] C:\Users\Madhu Sudhan\.gradl
 MERGED from [com.facebook.fresco:fbcore:2.5.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\da93691f81eb2955fa096f36282adbc8\transformed\jetified-fbcore-2.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\8438ee054f730cfcca9fb57d884d0a1f\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\1dcc21ebbb04740bcf71ca689e671fd9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
 	package
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:1-25:12
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:1-25:12
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:3:5-67
-MERGED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
-MERGED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
+ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:3:5-67
+MERGED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
+MERGED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:3:22-64
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:3:22-64
 application
-ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:5:5-24:19
-MERGED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-31:19
-MERGED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-31:19
-MERGED from [:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-11:19
-MERGED from [:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-11:19
+ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-31:19
+MERGED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-31:19
+MERGED from [:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-11:19
+MERGED from [:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-11:19
 MERGED from [com.facebook.react:react-android:0.71.7] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\18b8b0a321af4aa7cf84a592e4edca15\transformed\jetified-react-android-0.71.7-release\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-android:0.71.7] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\18b8b0a321af4aa7cf84a592e4edca15\transformed\jetified-react-android-0.71.7-release\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\248e284d261b27d6199c900cbe0e6dbc\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -145,75 +145,75 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Madhu Sud
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\948c3612aee17d86e5c180e70c3ba7eb\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:7:7-39
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:7:7-39
 	android:roundIcon
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:9:7-52
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:9:7-52
 	android:icon
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:8:7-41
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:8:7-41
 	android:allowBackup
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:10:7-34
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:10:7-34
 	android:theme
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:11:7-38
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:11:7-38
 	android:name
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:6:7-38
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:6:7-38
 activity#com.rnprac1.MainActivity
-ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:12:7-23:18
+ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:12:7-23:18
 	android:label
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:14:9-41
 	android:launchMode
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:16:9-40
 	android:windowSoftInputMode
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:17:9-51
 	android:exported
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:18:9-32
 	android:configChanges
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:15:9-118
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:15:9-118
 	android:name
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:13:9-37
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:13:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:19:9-22:25
+ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:20:13-65
+ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:20:21-62
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:21:13-73
+ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml:21:23-70
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml:21:23-70
 uses-sdk
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-MERGED from [:react-native-async-storage_async-storage] C:\Android\prac\rn-prac\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-async-storage_async-storage] C:\Android\prac\rn-prac\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-cookies_cookies] C:\Android\prac\rn-prac\node_modules\@react-native-cookies\cookies\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-cookies_cookies] C:\Android\prac\rn-prac\node_modules\@react-native-cookies\cookies\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo] C:\Android\prac\rn-prac\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo] C:\Android\prac\rn-prac\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-pager-view] C:\Android\prac\rn-prac\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-pager-view] C:\Android\prac\rn-prac\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-restart] C:\Android\prac\rn-prac\node_modules\react-native-restart\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-restart] C:\Android\prac\rn-prac\node_modules\react-native-restart\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] C:\Android\prac\rn-prac\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] C:\Android\prac\rn-prac\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-screens] C:\Android\prac\rn-prac\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-screens] C:\Android\prac\rn-prac\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-svg] C:\Android\prac\rn-prac\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:react-native-svg] C:\Android\prac\rn-prac\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-application] C:\Android\prac\rn-prac\node_modules\expo-application\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-application] C:\Android\prac\rn-prac\node_modules\expo-application\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-constants] C:\Android\prac\rn-prac\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-constants] C:\Android\prac\rn-prac\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
-MERGED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
-MERGED from [:expo-font] C:\Android\prac\rn-prac\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-font] C:\Android\prac\rn-prac\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-keep-awake] C:\Android\prac\rn-prac\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-keep-awake] C:\Android\prac\rn-prac\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-secure-store] C:\Android\prac\rn-prac\node_modules\expo-secure-store\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-secure-store] C:\Android\prac\rn-prac\node_modules\expo-secure-store\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-async-storage_async-storage] C:\Android\My-Val-Store\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Android\My-Val-Store\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-cookies_cookies] C:\Android\My-Val-Store\node_modules\@react-native-cookies\cookies\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-cookies_cookies] C:\Android\My-Val-Store\node_modules\@react-native-cookies\cookies\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo] C:\Android\My-Val-Store\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo] C:\Android\My-Val-Store\node_modules\expo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-pager-view] C:\Android\My-Val-Store\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-pager-view] C:\Android\My-Val-Store\node_modules\react-native-pager-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-restart] C:\Android\My-Val-Store\node_modules\react-native-restart\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-restart] C:\Android\My-Val-Store\node_modules\react-native-restart\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Android\My-Val-Store\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Android\My-Val-Store\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Android\My-Val-Store\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Android\My-Val-Store\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] C:\Android\My-Val-Store\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] C:\Android\My-Val-Store\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-application] C:\Android\My-Val-Store\node_modules\expo-application\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-application] C:\Android\My-Val-Store\node_modules\expo-application\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Android\My-Val-Store\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Android\My-Val-Store\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:expo-font] C:\Android\My-Val-Store\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-font] C:\Android\My-Val-Store\node_modules\expo-font\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-keep-awake] C:\Android\My-Val-Store\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-keep-awake] C:\Android\My-Val-Store\node_modules\expo-keep-awake\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-secure-store] C:\Android\My-Val-Store\node_modules\expo-secure-store\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-secure-store] C:\Android\My-Val-Store\node_modules\expo-secure-store\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.71.7] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\18b8b0a321af4aa7cf84a592e4edca15\transformed\jetified-react-android-0.71.7-release\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.7] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\18b8b0a321af4aa7cf84a592e4edca15\transformed\jetified-react-android-0.71.7-release\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\21d7360e31bcf3753506e5a4aa5c9d89\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
@@ -224,8 +224,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Madh
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\a9881cbeeae2ba8cf79ff14cbd8df7c2\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.react:hermes-android:0.71.7] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\b81903317bdd46d1770aa9dc5ca39007\transformed\jetified-hermes-android-0.71.7-release\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:hermes-android:0.71.7] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\b81903317bdd46d1770aa9dc5ca39007\transformed\jetified-hermes-android-0.71.7-release\AndroidManifest.xml:5:5-7:41
-MERGED from [:shopify_flash-list] C:\Android\prac\rn-prac\node_modules\@shopify\flash-list\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
-MERGED from [:shopify_flash-list] C:\Android\prac\rn-prac\node_modules\@shopify\flash-list\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shopify_flash-list] C:\Android\My-Val-Store\node_modules\@shopify\flash-list\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shopify_flash-list] C:\Android\My-Val-Store\node_modules\@shopify\flash-list\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\248e284d261b27d6199c900cbe0e6dbc\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\248e284d261b27d6199c900cbe0e6dbc\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\0c4f0022af882e91b23b846396a11d79\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -362,56 +362,56 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Madhu Sud
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\8438ee054f730cfcca9fb57d884d0a1f\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\1dcc21ebbb04740bcf71ca689e671fd9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\1dcc21ebbb04740bcf71ca689e671fd9\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Android\prac\rn-prac\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Android\My-Val-Store\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-80
+ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-77
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-77
 queries
-ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-18:15
+ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-18:15
 intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
-ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:18
+ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:18
 action#android.intent.action.OPEN_DOCUMENT_TREE
-ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-79
+ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-79
 	android:name
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:21-76
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:21-76
 provider#expo.modules.filesystem.FileSystemFileProvider
-ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-30:20
+ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-30:20
 	android:grantUriPermissions
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-47
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-47
 	android:authorities
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-74
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-74
 	android:exported
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
 	tools:replace
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-48
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-48
 	android:name
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-74
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-74
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-29:70
+ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-29:70
 	android:resource
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-67
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-67
 	android:name
-		ADDED from [:expo-file-system] C:\Android\prac\rn-prac\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-67
+		ADDED from [:expo-file-system] C:\Android\My-Val-Store\node_modules\expo-file-system\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-67
 meta-data#org.unimodules.core.AppLoader#react-native-headless
-ADDED from [:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-10:89
+ADDED from [:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-10:89
 	android:value
-		ADDED from [:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-86
+		ADDED from [:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-86
 	android:name
-		ADDED from [:expo-modules-core] C:\Android\prac\rn-prac\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-79
+		ADDED from [:expo-modules-core] C:\Android\My-Val-Store\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-79
 uses-permission#android.permission.USE_BIOMETRIC
 ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Madhu Sudhan\.gradle\caches\transforms-3\0c4f0022af882e91b23b846396a11d79\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
 	android:name

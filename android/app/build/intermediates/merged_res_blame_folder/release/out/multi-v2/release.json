@@ -98,6 +98,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Android\\My-Val-Store\\android\\app\\build\\generated\\res\\resValues\\release\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "159,265",
+                        "endColumns": "63,68",
+                        "endOffsets": "218,329"
+                    },
+                    "to": {
+                        "startLines": "693,694",
+                        "startColumns": "4,4",
+                        "startOffsets": "42998,43062",
+                        "endColumns": "63,68",
+                        "endOffsets": "43057,43126"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Madhu Sudhan\\.gradle\\caches\\transforms-3\\3b6d46a2bd5aff6d0a3e8b803c55678d\\transformed\\jetified-appcompat-resources-1.4.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -210,25 +227,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Android\\prac\\rn-prac\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "273"
-                    },
-                    "to": {
-                        "startLines": "872",
-                        "startColumns": "4",
-                        "startOffsets": "62217",
-                        "endLines": "875",
-                        "endColumns": "12",
-                        "endOffsets": "62395"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Madhu Sudhan\\.gradle\\caches\\transforms-3\\41fd2f5a2350f97bb776be44216553fc\\transformed\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -337,23 +335,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Android\\prac\\rn-prac\\android\\app\\build\\generated\\res\\resValues\\release\\values\\gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "159,265",
-                        "endColumns": "63,68",
-                        "endOffsets": "218,329"
-                    },
-                    "to": {
-                        "startLines": "693,694",
-                        "startColumns": "4,4",
-                        "startOffsets": "42998,43062",
-                        "endColumns": "63,68",
-                        "endOffsets": "43057,43126"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Madhu Sudhan\\.gradle\\caches\\transforms-3\\0c4f0022af882e91b23b846396a11d79\\transformed\\biometric-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,6,8,11,15,34,35,36,37,38,39,40,41,42,43,44,45,46,47",
@@ -370,6 +351,25 @@
                         "endLines": "5,7,10,14,33,134,383,769,770,775,776,777,778,779,780,781,782,783,784",
                         "endColumns": "19,19,19,19,19,55,52,75,59,88,98,107,96,87,99,69,96,109,88",
                         "endOffsets": "284,367,478,613,1194,7191,23861,50018,50078,50635,50734,50842,50939,51027,51127,51197,51294,51404,51493"
+                    }
+                },
+                {
+                    "source": "C:\\Android\\My-Val-Store\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "872",
+                        "startColumns": "4",
+                        "startOffsets": "62217",
+                        "endLines": "875",
+                        "endColumns": "12",
+                        "endOffsets": "62395"
                     }
                 },
                 {
@@ -428,23 +428,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Android\\prac\\rn-prac\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "56",
-                        "endOffsets": "69"
-                    },
-                    "to": {
-                        "startLines": "730",
-                        "startColumns": "4",
-                        "startOffsets": "45600",
-                        "endColumns": "56",
-                        "endOffsets": "45652"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Madhu Sudhan\\.gradle\\caches\\transforms-3\\384811e939188f83f7bffe35824ea354\\transformed\\jetified-startup-runtime-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -459,6 +442,23 @@
                         "startOffsets": "45517",
                         "endColumns": "82",
                         "endOffsets": "45595"
+                    }
+                },
+                {
+                    "source": "C:\\Android\\My-Val-Store\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "56",
+                        "endOffsets": "69"
+                    },
+                    "to": {
+                        "startLines": "730",
+                        "startColumns": "4",
+                        "startOffsets": "45600",
+                        "endColumns": "56",
+                        "endOffsets": "45652"
                     }
                 }
             ]

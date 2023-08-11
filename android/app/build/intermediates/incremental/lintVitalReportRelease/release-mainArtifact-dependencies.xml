@@ -1,20 +1,20 @@
 <dependencies>
   <compile
-      roots="C:\Android\prac\rn-prac\android@@:react-native-pager-view::release,C:\Android\prac\rn-prac\android@@:react-native-restart::release,com.facebook.react:react-android:0.71.7:release@aar,C:\Android\prac\rn-prac\android@@:expo::release,C:\Android\prac\rn-prac\android@@:expo-file-system::release,androidx.legacy:legacy-support-v4:1.0.0@aar,androidx.legacy:legacy-support-core-ui:1.0.0@aar,androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar,com.facebook.react:hermes-android:0.71.7:release@aar,C:\Android\prac\rn-prac\android@@:react-native-async-storage_async-storage::release,C:\Android\prac\rn-prac\android@@:react-native-cookies_cookies::release,C:\Android\prac\rn-prac\android@@:shopify_flash-list::release,C:\Android\prac\rn-prac\android@@:react-native-safe-area-context::release,C:\Android\prac\rn-prac\android@@:react-native-screens::release,C:\Android\prac\rn-prac\android@@:react-native-svg::release,androidx.appcompat:appcompat:1.4.1@aar,androidx.appcompat:appcompat-resources:1.4.1@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,C:\Android\prac\rn-prac\android@@:expo-secure-store::release,androidx.biometric:biometric:1.1.0@aar,androidx.fragment:fragment:1.4.1@aar,androidx.fragment:fragment:1.4.1@aar,androidx.activity:activity:1.4.0@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,C:\Android\prac\rn-prac\android@@:expo-modules-core::release,androidx.core:core-ktx:1.6.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar,androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.media:media:1.0.0@aar,androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar,androidx.core:core:1.7.0@aar,androidx.core:core:1.7.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.interpolator:interpolator:1.0.0@aar,C:\Android\prac\rn-prac\android@@:expo-constants::release,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar,androidx.savedstate:savedstate:1.1.0@aar,androidx.lifecycle:lifecycle-runtime:2.4.0@aar,androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar,androidx.lifecycle:lifecycle-common:2.4.0@jar,androidx.arch.core:core-runtime:2.1.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.annotation:annotation:1.3.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,com.facebook.fresco:imagepipeline-okhttp3:2.5.0@aar,com.squareup.okhttp3:okhttp-urlconnection:4.9.2@jar,com.squareup.okhttp3:okhttp:4.9.2@jar,com.squareup.okio:okio:2.9.0@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar,org.jetbrains:annotations:13.0@jar,androidx.tracing:tracing:1.1.0@aar,androidx.autofill:autofill:1.1.0@aar,com.facebook.fbjni:fbjni:0.3.0@aar,com.facebook.soloader:soloader:0.10.4@aar,com.facebook.soloader:nativeloader:0.10.4@jar,com.facebook.fresco:fresco:2.5.0@aar,com.facebook.fresco:fbcore:2.5.0@aar,com.facebook.soloader:annotation:0.10.4@jar,com.facebook.fresco:ui-common:2.5.0@aar,com.facebook.fresco:drawee:2.5.0@aar,com.facebook.fresco:imagepipeline:2.5.0@aar,com.facebook.fresco:imagepipeline-base:2.5.0@aar,com.facebook.infer.annotation:infer-annotation:0.18.0@jar,com.google.code.findbugs:jsr305:3.0.2@jar,org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72@jar,com.facebook.fresco:imagepipeline-native:2.5.0@aar,com.facebook.fresco:memory-type-ashmem:2.5.0@aar,com.facebook.fresco:memory-type-native:2.5.0@aar,com.facebook.fresco:memory-type-java:2.5.0@aar,com.facebook.fresco:nativeimagefilters:2.5.0@aar,com.facebook.fresco:nativeimagetranscoder:2.5.0@aar,com.facebook.yoga:proguard-annotations:1.19.0@jar,javax.inject:javax.inject:1@jar,com.facebook.device.yearclass:yearclass:2.1.0@jar,commons-io:commons-io:2.6@jar,commons-codec:commons-codec:1.10@jar,C:\Android\prac\rn-prac\android@@:expo-application::release,C:\Android\prac\rn-prac\android@@:expo-font::release,C:\Android\prac\rn-prac\android@@:expo-keep-awake::release">
+      roots="C:\Android\My-Val-Store\android@@:react-native-pager-view::release,C:\Android\My-Val-Store\android@@:react-native-restart::release,com.facebook.react:react-android:0.71.7:release@aar,C:\Android\My-Val-Store\android@@:expo::release,C:\Android\My-Val-Store\android@@:expo-file-system::release,androidx.legacy:legacy-support-v4:1.0.0@aar,androidx.legacy:legacy-support-core-ui:1.0.0@aar,androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar,com.facebook.react:hermes-android:0.71.7:release@aar,C:\Android\My-Val-Store\android@@:react-native-async-storage_async-storage::release,C:\Android\My-Val-Store\android@@:react-native-cookies_cookies::release,C:\Android\My-Val-Store\android@@:shopify_flash-list::release,C:\Android\My-Val-Store\android@@:react-native-safe-area-context::release,C:\Android\My-Val-Store\android@@:react-native-screens::release,C:\Android\My-Val-Store\android@@:react-native-svg::release,androidx.appcompat:appcompat:1.4.1@aar,androidx.appcompat:appcompat-resources:1.4.1@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,C:\Android\My-Val-Store\android@@:expo-secure-store::release,androidx.biometric:biometric:1.1.0@aar,androidx.fragment:fragment:1.4.1@aar,androidx.fragment:fragment:1.4.1@aar,androidx.activity:activity:1.4.0@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,C:\Android\My-Val-Store\android@@:expo-modules-core::release,androidx.core:core-ktx:1.6.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar,androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.media:media:1.0.0@aar,androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar,androidx.core:core:1.7.0@aar,androidx.core:core:1.7.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.interpolator:interpolator:1.0.0@aar,C:\Android\My-Val-Store\android@@:expo-constants::release,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar,androidx.savedstate:savedstate:1.1.0@aar,androidx.lifecycle:lifecycle-runtime:2.4.0@aar,androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar,androidx.lifecycle:lifecycle-common:2.4.0@jar,androidx.arch.core:core-runtime:2.1.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.annotation:annotation:1.3.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,com.facebook.fresco:imagepipeline-okhttp3:2.5.0@aar,com.squareup.okhttp3:okhttp-urlconnection:4.9.2@jar,com.squareup.okhttp3:okhttp:4.9.2@jar,com.squareup.okio:okio:2.9.0@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar,org.jetbrains:annotations:13.0@jar,androidx.tracing:tracing:1.1.0@aar,androidx.autofill:autofill:1.1.0@aar,com.facebook.fbjni:fbjni:0.3.0@aar,com.facebook.soloader:soloader:0.10.4@aar,com.facebook.soloader:nativeloader:0.10.4@jar,com.facebook.fresco:fresco:2.5.0@aar,com.facebook.fresco:fbcore:2.5.0@aar,com.facebook.soloader:annotation:0.10.4@jar,com.facebook.fresco:ui-common:2.5.0@aar,com.facebook.fresco:drawee:2.5.0@aar,com.facebook.fresco:imagepipeline:2.5.0@aar,com.facebook.fresco:imagepipeline-base:2.5.0@aar,com.facebook.infer.annotation:infer-annotation:0.18.0@jar,com.google.code.findbugs:jsr305:3.0.2@jar,org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72@jar,com.facebook.fresco:imagepipeline-native:2.5.0@aar,com.facebook.fresco:memory-type-ashmem:2.5.0@aar,com.facebook.fresco:memory-type-native:2.5.0@aar,com.facebook.fresco:memory-type-java:2.5.0@aar,com.facebook.fresco:nativeimagefilters:2.5.0@aar,com.facebook.fresco:nativeimagetranscoder:2.5.0@aar,com.facebook.yoga:proguard-annotations:1.19.0@jar,javax.inject:javax.inject:1@jar,com.facebook.device.yearclass:yearclass:2.1.0@jar,commons-io:commons-io:2.6@jar,commons-codec:commons-codec:1.10@jar,C:\Android\My-Val-Store\android@@:expo-application::release,C:\Android\My-Val-Store\android@@:expo-font::release,C:\Android\My-Val-Store\android@@:expo-keep-awake::release">
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-pager-view::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-pager-view::release"
         simpleName="rnprac1:react-native-pager-view"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-restart::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-restart::release"
         simpleName="rnprac1:react-native-restart"/>
     <dependency
         name="com.facebook.react:react-android:0.71.7:release@aar"
         simpleName="com.facebook.react:react-android"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo::release"
+        name="C:\Android\My-Val-Store\android@@:expo::release"
         simpleName="host.exp.exponent:expo"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-file-system::release"
+        name="C:\Android\My-Val-Store\android@@:expo-file-system::release"
         simpleName="host.exp.exponent:expo-file-system"/>
     <dependency
         name="androidx.legacy:legacy-support-v4:1.0.0@aar"
@@ -29,22 +29,22 @@
         name="com.facebook.react:hermes-android:0.71.7:release@aar"
         simpleName="com.facebook.react:hermes-android"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-async-storage_async-storage::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-async-storage_async-storage::release"
         simpleName="rnprac1:react-native-async-storage_async-storage"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-cookies_cookies::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-cookies_cookies::release"
         simpleName="rnprac1:react-native-cookies_cookies"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:shopify_flash-list::release"
+        name="C:\Android\My-Val-Store\android@@:shopify_flash-list::release"
         simpleName="rnprac1:shopify_flash-list"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-safe-area-context::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-safe-area-context::release"
         simpleName="rnprac1:react-native-safe-area-context"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-screens::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-screens::release"
         simpleName="rnprac1:react-native-screens"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-svg::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-svg::release"
         simpleName="rnprac1:react-native-svg"/>
     <dependency
         name="androidx.appcompat:appcompat:1.4.1@aar"
@@ -59,7 +59,7 @@
         name="androidx.vectordrawable:vectordrawable:1.1.0@aar"
         simpleName="androidx.vectordrawable:vectordrawable"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-secure-store::release"
+        name="C:\Android\My-Val-Store\android@@:expo-secure-store::release"
         simpleName="host.exp.exponent:expo-secure-store"/>
     <dependency
         name="androidx.biometric:biometric:1.1.0@aar"
@@ -74,7 +74,7 @@
         name="androidx.drawerlayout:drawerlayout:1.0.0@aar"
         simpleName="androidx.drawerlayout:drawerlayout"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-modules-core::release"
+        name="C:\Android\My-Val-Store\android@@:expo-modules-core::release"
         simpleName="host.exp.exponent:expo-modules-core"/>
     <dependency
         name="androidx.core:core-ktx:1.6.0@aar"
@@ -116,7 +116,7 @@
         name="androidx.interpolator:interpolator:1.0.0@aar"
         simpleName="androidx.interpolator:interpolator"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-constants::release"
+        name="C:\Android\My-Val-Store\android@@:expo-constants::release"
         simpleName="host.exp.exponent:expo-constants"/>
     <dependency
         name="androidx.cursoradapter:cursoradapter:1.0.0@aar"
@@ -275,61 +275,61 @@
         name="commons-codec:commons-codec:1.10@jar"
         simpleName="commons-codec:commons-codec"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-application::release"
+        name="C:\Android\My-Val-Store\android@@:expo-application::release"
         simpleName="host.exp.exponent:expo-application"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-font::release"
+        name="C:\Android\My-Val-Store\android@@:expo-font::release"
         simpleName="host.exp.exponent:expo-font"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-keep-awake::release"
+        name="C:\Android\My-Val-Store\android@@:expo-keep-awake::release"
         simpleName="host.exp.exponent:expo-keep-awake"/>
   </compile>
   <package
-      roots="C:\Android\prac\rn-prac\android@@:react-native-async-storage_async-storage::release,C:\Android\prac\rn-prac\android@@:react-native-cookies_cookies::release,C:\Android\prac\rn-prac\android@@:expo::release,C:\Android\prac\rn-prac\android@@:react-native-pager-view::release,C:\Android\prac\rn-prac\android@@:react-native-restart::release,C:\Android\prac\rn-prac\android@@:react-native-safe-area-context::release,C:\Android\prac\rn-prac\android@@:react-native-screens::release,C:\Android\prac\rn-prac\android@@:react-native-svg::release,C:\Android\prac\rn-prac\android@@:expo-application::release,C:\Android\prac\rn-prac\android@@:expo-constants::release,C:\Android\prac\rn-prac\android@@:expo-file-system::release,C:\Android\prac\rn-prac\android@@:expo-font::release,C:\Android\prac\rn-prac\android@@:expo-keep-awake::release,C:\Android\prac\rn-prac\android@@:expo-secure-store::release,C:\Android\prac\rn-prac\android@@:expo-modules-core::release,com.facebook.react:react-android:0.71.7:release@aar,androidx.legacy:legacy-support-v4:1.0.0@aar,androidx.legacy:legacy-support-core-ui:1.0.0@aar,androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar,com.facebook.react:hermes-android:0.71.7:release@aar,C:\Android\prac\rn-prac\android@@:shopify_flash-list::release,com.google.android.material:material:1.1.0@aar,androidx.biometric:biometric:1.1.0@aar,androidx.appcompat:appcompat:1.4.1@aar,androidx.appcompat:appcompat:1.4.1@aar,androidx.appcompat:appcompat-resources:1.4.1@aar,androidx.autofill:autofill:1.1.0@aar,androidx.emoji2:emoji2-views-helper:1.0.0@aar,androidx.emoji2:emoji2:1.0.0@aar,androidx.lifecycle:lifecycle-process:2.4.0@aar,androidx.startup:startup-runtime:1.0.0@aar,androidx.fragment:fragment-ktx:1.4.1@aar,androidx.activity:activity-ktx:1.4.0@aar,androidx.viewpager2:viewpager2:1.0.0@aar,androidx.fragment:fragment:1.4.1@aar,androidx.fragment:fragment:1.4.1@aar,androidx.activity:activity:1.4.0@aar,androidx.tracing:tracing:1.1.0@aar,com.facebook.fbjni:fbjni:0.3.0@aar,com.facebook.fresco:fresco:2.5.0@aar,com.facebook.fresco:imagepipeline-okhttp3:2.5.0@aar,com.facebook.fresco:drawee:2.5.0@aar,com.facebook.fresco:middleware:2.5.0@aar,com.facebook.fresco:ui-common:2.5.0@aar,com.facebook.fresco:nativeimagefilters:2.5.0@aar,com.facebook.fresco:memory-type-native:2.5.0@aar,com.facebook.fresco:memory-type-java:2.5.0@aar,com.facebook.fresco:imagepipeline-native:2.5.0@aar,com.facebook.fresco:memory-type-ashmem:2.5.0@aar,com.facebook.fresco:imagepipeline:2.5.0@aar,com.facebook.fresco:nativeimagetranscoder:2.5.0@aar,com.facebook.fresco:imagepipeline-base:2.5.0@aar,com.facebook.infer.annotation:infer-annotation:0.18.0@jar,com.facebook.fresco:soloader:2.5.0@aar,com.facebook.soloader:soloader:0.10.4@aar,com.facebook.yoga:proguard-annotations:1.19.0@jar,com.google.code.findbugs:jsr305:3.0.2@jar,com.squareup.okhttp3:okhttp-urlconnection:4.9.2@jar,com.squareup.okhttp3:okhttp:4.9.2@jar,com.squareup.okio:okio:2.9.0@jar,javax.inject:javax.inject:1@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0@jar,androidx.lifecycle:lifecycle-runtime-ktx:2.3.1@aar,androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,androidx.core:core-ktx:1.6.0@aar,androidx.recyclerview:recyclerview:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.transition:transition:1.2.0@aar,androidx.media:media:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar,androidx.core:core:1.7.0@aar,androidx.core:core:1.7.0@aar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.savedstate:savedstate-ktx:1.1.0@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar,androidx.savedstate:savedstate:1.1.0@aar,androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection-ktx:1.1.0@jar,androidx.collection:collection:1.1.0@jar,androidx.cardview:cardview:1.0.0@aar,androidx.concurrent:concurrent-futures:1.0.0@jar,androidx.lifecycle:lifecycle-runtime:2.4.0@aar,androidx.lifecycle:lifecycle-runtime:2.4.0@aar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar,androidx.lifecycle:lifecycle-common:2.4.0@jar,androidx.arch.core:core-runtime:2.1.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.annotation:annotation:1.3.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar,org.jetbrains.kotlin:kotlin-reflect:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar,com.jakewharton:process-phoenix:2.1.2@aar,com.facebook.soloader:nativeloader:0.10.4@jar,com.facebook.fresco:fbcore:2.5.0@aar,org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72@jar,com.facebook.soloader:annotation:0.10.4@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar,com.android.installreferrer:installreferrer:1.0@aar,com.facebook.device.yearclass:yearclass:2.1.0@jar,commons-io:commons-io:2.6@jar,commons-codec:commons-codec:1.10@jar,androidx.annotation:annotation-experimental:1.1.0@aar,com.parse.bolts:bolts-tasks:1.4.0@jar,org.jetbrains:annotations:13.0@jar,com.google.guava:listenablefuture:1.0@jar">
+      roots="C:\Android\My-Val-Store\android@@:react-native-async-storage_async-storage::release,C:\Android\My-Val-Store\android@@:react-native-cookies_cookies::release,C:\Android\My-Val-Store\android@@:expo::release,C:\Android\My-Val-Store\android@@:react-native-pager-view::release,C:\Android\My-Val-Store\android@@:react-native-restart::release,C:\Android\My-Val-Store\android@@:react-native-safe-area-context::release,C:\Android\My-Val-Store\android@@:react-native-screens::release,C:\Android\My-Val-Store\android@@:react-native-svg::release,C:\Android\My-Val-Store\android@@:expo-application::release,C:\Android\My-Val-Store\android@@:expo-constants::release,C:\Android\My-Val-Store\android@@:expo-file-system::release,C:\Android\My-Val-Store\android@@:expo-font::release,C:\Android\My-Val-Store\android@@:expo-keep-awake::release,C:\Android\My-Val-Store\android@@:expo-secure-store::release,C:\Android\My-Val-Store\android@@:expo-modules-core::release,com.facebook.react:react-android:0.71.7:release@aar,androidx.legacy:legacy-support-v4:1.0.0@aar,androidx.legacy:legacy-support-core-ui:1.0.0@aar,androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar,com.facebook.react:hermes-android:0.71.7:release@aar,C:\Android\My-Val-Store\android@@:shopify_flash-list::release,com.google.android.material:material:1.1.0@aar,androidx.biometric:biometric:1.1.0@aar,androidx.appcompat:appcompat:1.4.1@aar,androidx.appcompat:appcompat:1.4.1@aar,androidx.appcompat:appcompat-resources:1.4.1@aar,androidx.autofill:autofill:1.1.0@aar,androidx.emoji2:emoji2-views-helper:1.0.0@aar,androidx.emoji2:emoji2:1.0.0@aar,androidx.lifecycle:lifecycle-process:2.4.0@aar,androidx.startup:startup-runtime:1.0.0@aar,androidx.fragment:fragment-ktx:1.4.1@aar,androidx.activity:activity-ktx:1.4.0@aar,androidx.viewpager2:viewpager2:1.0.0@aar,androidx.fragment:fragment:1.4.1@aar,androidx.fragment:fragment:1.4.1@aar,androidx.activity:activity:1.4.0@aar,androidx.tracing:tracing:1.1.0@aar,com.facebook.fbjni:fbjni:0.3.0@aar,com.facebook.fresco:fresco:2.5.0@aar,com.facebook.fresco:imagepipeline-okhttp3:2.5.0@aar,com.facebook.fresco:drawee:2.5.0@aar,com.facebook.fresco:middleware:2.5.0@aar,com.facebook.fresco:ui-common:2.5.0@aar,com.facebook.fresco:nativeimagefilters:2.5.0@aar,com.facebook.fresco:memory-type-native:2.5.0@aar,com.facebook.fresco:memory-type-java:2.5.0@aar,com.facebook.fresco:imagepipeline-native:2.5.0@aar,com.facebook.fresco:memory-type-ashmem:2.5.0@aar,com.facebook.fresco:imagepipeline:2.5.0@aar,com.facebook.fresco:nativeimagetranscoder:2.5.0@aar,com.facebook.fresco:imagepipeline-base:2.5.0@aar,com.facebook.infer.annotation:infer-annotation:0.18.0@jar,com.facebook.fresco:soloader:2.5.0@aar,com.facebook.soloader:soloader:0.10.4@aar,com.facebook.yoga:proguard-annotations:1.19.0@jar,com.google.code.findbugs:jsr305:3.0.2@jar,com.squareup.okhttp3:okhttp-urlconnection:4.9.2@jar,com.squareup.okhttp3:okhttp:4.9.2@jar,com.squareup.okio:okio:2.9.0@jar,javax.inject:javax.inject:1@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0@jar,androidx.lifecycle:lifecycle-runtime-ktx:2.3.1@aar,androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10@jar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,androidx.core:core-ktx:1.6.0@aar,androidx.recyclerview:recyclerview:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.transition:transition:1.2.0@aar,androidx.media:media:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar,androidx.core:core:1.7.0@aar,androidx.core:core:1.7.0@aar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.savedstate:savedstate-ktx:1.1.0@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar,androidx.savedstate:savedstate:1.1.0@aar,androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar,androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection-ktx:1.1.0@jar,androidx.collection:collection:1.1.0@jar,androidx.cardview:cardview:1.0.0@aar,androidx.concurrent:concurrent-futures:1.0.0@jar,androidx.lifecycle:lifecycle-runtime:2.4.0@aar,androidx.lifecycle:lifecycle-runtime:2.4.0@aar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar,androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar,androidx.lifecycle:lifecycle-common:2.4.0@jar,androidx.arch.core:core-runtime:2.1.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.annotation:annotation:1.3.0@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10@jar,org.jetbrains.kotlin:kotlin-reflect:1.8.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.8.10@jar,com.jakewharton:process-phoenix:2.1.2@aar,com.facebook.soloader:nativeloader:0.10.4@jar,com.facebook.fresco:fbcore:2.5.0@aar,org.jetbrains.kotlin:kotlin-annotations-jvm:1.3.72@jar,com.facebook.soloader:annotation:0.10.4@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10@jar,com.android.installreferrer:installreferrer:1.0@aar,com.facebook.device.yearclass:yearclass:2.1.0@jar,commons-io:commons-io:2.6@jar,commons-codec:commons-codec:1.10@jar,androidx.annotation:annotation-experimental:1.1.0@aar,com.parse.bolts:bolts-tasks:1.4.0@jar,org.jetbrains:annotations:13.0@jar,com.google.guava:listenablefuture:1.0@jar">
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-async-storage_async-storage::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-async-storage_async-storage::release"
         simpleName="rnprac1:react-native-async-storage_async-storage"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-cookies_cookies::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-cookies_cookies::release"
         simpleName="rnprac1:react-native-cookies_cookies"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo::release"
+        name="C:\Android\My-Val-Store\android@@:expo::release"
         simpleName="host.exp.exponent:expo"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-pager-view::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-pager-view::release"
         simpleName="rnprac1:react-native-pager-view"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-restart::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-restart::release"
         simpleName="rnprac1:react-native-restart"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-safe-area-context::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-safe-area-context::release"
         simpleName="rnprac1:react-native-safe-area-context"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-screens::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-screens::release"
         simpleName="rnprac1:react-native-screens"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:react-native-svg::release"
+        name="C:\Android\My-Val-Store\android@@:react-native-svg::release"
         simpleName="rnprac1:react-native-svg"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-application::release"
+        name="C:\Android\My-Val-Store\android@@:expo-application::release"
         simpleName="host.exp.exponent:expo-application"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-constants::release"
+        name="C:\Android\My-Val-Store\android@@:expo-constants::release"
         simpleName="host.exp.exponent:expo-constants"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-file-system::release"
+        name="C:\Android\My-Val-Store\android@@:expo-file-system::release"
         simpleName="host.exp.exponent:expo-file-system"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-font::release"
+        name="C:\Android\My-Val-Store\android@@:expo-font::release"
         simpleName="host.exp.exponent:expo-font"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-keep-awake::release"
+        name="C:\Android\My-Val-Store\android@@:expo-keep-awake::release"
         simpleName="host.exp.exponent:expo-keep-awake"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-secure-store::release"
+        name="C:\Android\My-Val-Store\android@@:expo-secure-store::release"
         simpleName="host.exp.exponent:expo-secure-store"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:expo-modules-core::release"
+        name="C:\Android\My-Val-Store\android@@:expo-modules-core::release"
         simpleName="host.exp.exponent:expo-modules-core"/>
     <dependency
         name="com.facebook.react:react-android:0.71.7:release@aar"
@@ -347,7 +347,7 @@
         name="com.facebook.react:hermes-android:0.71.7:release@aar"
         simpleName="com.facebook.react:hermes-android"/>
     <dependency
-        name="C:\Android\prac\rn-prac\android@@:shopify_flash-list::release"
+        name="C:\Android\My-Val-Store\android@@:shopify_flash-list::release"
         simpleName="rnprac1:shopify_flash-list"/>
     <dependency
         name="com.google.android.material:material:1.1.0@aar"
