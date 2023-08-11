@@ -2,7 +2,7 @@
 
 Check your daily valorant store without having to open the game, clean UI with pitch-black theme, supports viewing daily store, featured bundle(s) and night market.
 
-Download the apk <a href="./android/app/build/outputs/apk/release/app-release.apk">Here</a>
+Download the apk <a href="https://raw.githubusercontent.com/sumad200/My-Val-Store/main/android/app/build/outputs/apk/release/app-release.apk">Here</a>
 
 ## Screenshots
 
