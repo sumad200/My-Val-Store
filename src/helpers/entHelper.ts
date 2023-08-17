@@ -3,7 +3,6 @@ import axiosRetry from 'axios-retry';
 import axios, {AxiosInstance} from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-
 let entClient: AxiosInstance;
 
 async function createEntClient() {
