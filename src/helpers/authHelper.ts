@@ -91,9 +91,9 @@ export async function lmaoded(
       nonce: '69420',
       redirect_uri: 'http://localhost/redirect',
       response_type: 'token id_token',
-      scope: 'openid link ban lol_region',
+      scope: 'openid link ban lol_region'
     })
-    .then(async (res) => {
+    .then(async res => {
       await lmaoded2(user, pwd, shard, setSuccess, setFail);
     })
     .catch(err => {
