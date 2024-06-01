@@ -9,7 +9,7 @@ import {TabView, TabBar} from 'react-native-tab-view';
 import {TryRetry} from './TryRetry';
 import {VPIcon, Radianite} from '../components/CurrencyIcons';
 import {IconBox} from '../components/IconBox';
-import {getWalletUrl, getStoreUrl} from '../helpers/urlHelper';
+import {getWalletUrl, getStoreUrl, getClientInfo} from '../helpers/urlHelper';
 import {Heading, Box, Text} from 'native-base';
 import {dailyOffersHelper} from '../helpers/dailyOffersHelper';
 import {StoreList} from '../components/StoreList';
@@ -41,12 +41,15 @@ async function gameDataHeaders() {
   let authToken = await SecureStore.getItemAsync('val_access_token');
   walletUrl = await getWalletUrl();
   storeUrl = await getStoreUrl();
+  let clientVersion = await getClientInfo();
   //console.log(storeUrl);
 
   client = axios.create({
     headers: {
       'X-Riot-Entitlements-JWT': `${entToken}`,
       Authorization: `Bearer ${authToken}`,
+      'X-Riot-ClientPlatform': 'ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9',
+      'X-Riot-ClientVersion': `${clientVersion}`
     },
   });
 }
