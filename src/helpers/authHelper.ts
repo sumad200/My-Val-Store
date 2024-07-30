@@ -33,11 +33,14 @@ async function lmaoded3(tokenUri: any): Promise<void> {
   tokenUri = new URLSearchParams(tokenUri.substring(tokenUri.indexOf('#') + 1));
   const accToken = tokenUri.get('access_token');
   const idToken = tokenUri.get('id_token');
-  await SecureStore.setItemAsync('val_access_token', accToken);
-  await SecureStore.setItemAsync('val_id_token', idToken);
   let playerData = JSON.parse(base64.decode(accToken.split('.')[1]));
-  await AsyncStorage.setItem('playerUuid', playerData.sub);
-  //console.log('Tokens stored');
+  Promise.all([
+  SecureStore.setItemAsync('val_access_token', accToken),
+  SecureStore.setItemAsync('val_id_token', idToken),
+  AsyncStorage.setItem('playerUuid', playerData.sub),
+  ]).then(val=>{
+    //console.log('Tokens stored');
+  });
 }
 
 async function lmaoded2(user, pwd, shard, setSuccess, setFail): void {
@@ -54,9 +57,9 @@ async function lmaoded2(user, pwd, shard, setSuccess, setFail): void {
         //console.log(res.data.error);
       }
       if (res.data.type === 'response') {
-        ////console.log('gsgdsdsd');
+        //console.log('gsgdsdsd');
         const tokenUri = res.data.response.parameters.uri;
-        ////console.log(tokenUri);
+        //console.log(tokenUri);
         AsyncStorage.setItem('playerShard', shard);
         await lmaoded3(tokenUri);
       } else {
@@ -97,4 +100,12 @@ export async function lmaoded(
       //console.log(err);
       setFail(true);
     });
+}
+
+export async function webViewAuthHelper(tokenUri: any,shard: string) {
+  //console.log(`got ${tokenUri} ${shard}`)
+  Promise.all([
+  lmaoded3(tokenUri),AsyncStorage.setItem('playerShard', shard)]).then((val)=>{
+    //console.log("New auth handler success")
+  })
 }

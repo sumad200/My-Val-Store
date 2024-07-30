@@ -2,7 +2,7 @@ import {Box, Heading} from 'native-base';
 import React, {useEffect, useContext, useState} from 'react';
 import {StyleSheet, SafeAreaView} from 'react-native';
 import {useRoute, useNavigation} from '@react-navigation/native';
-import {lmaoded} from '../helpers/authHelper';
+import {lmaoded, webViewAuthHelper} from '../helpers/authHelper';
 import {fetchEnt} from '../helpers/entHelper';
 import {AuthContext} from '../helpers/AuthContext';
 
@@ -27,17 +27,11 @@ export function AuthLoading(): JSX.Element {
     async function rsoAuth() {
       const params = route.params;
       try {
-        await lmaoded(
-          params.userName,
-          params.pwd,
-          params.shard,
-          setSuccess,
-          setFail,
-        );
+        await webViewAuthHelper(params.tokenUri,params.playerShard);
         await fetchEnt(setSuccess, setFail);
-        ////console.log('succs');
+        //console.log('succs');
       } catch (e: any) {
-        ////console.log(e);
+        //console.log(e);
       }
     }
     rsoAuth();

@@ -10,6 +10,8 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {TryRetry} from './src/views/TryRetry';
 import {LoginForm} from './src/views/LoginView';
+import WebViewLogin from './src/views/WebViewLogin';
+import ShardSelect from './src/views/ShardSelect';
 
 const theme = extendTheme({
   config: {
@@ -76,12 +78,17 @@ export default function App() {
               <>
                 <Stack.Screen
                   name="LoginForm"
-                  component={LoginForm}
+                  component={WebViewLogin}
                   options={{headerShown: false}}
                 />
                 <Stack.Screen
                   name="AuthWait"
                   component={AuthLoading}
+                  options={{headerShown: false}}
+                />
+                <Stack.Screen
+                  name="ShardSelect"
+                  component={ShardSelect}
                   options={{headerShown: false}}
                 />
               </>
