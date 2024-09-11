@@ -15,7 +15,7 @@
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.13",
     "@shopify/flash-list": "^1.5.0",
-    "axios": "^1.4.0",
+    "axios": "^1.7.4",
     "axios-retry": "^3.4.0",
     "base-64": "^1.0.0",
     "expo": "^48.0.13",
