@@ -21,6 +21,7 @@ import {FeatureView} from './FeatureView';
 import {StoreTitleHeader} from '../components/DailyHeader';
 import {NoNightMarket} from '../components/NoNightMarket';
 import {nightMarketHelper} from '../helpers/nightMarketHelper';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const styles = StyleSheet.create({
   MainContainer: {
@@ -64,6 +65,7 @@ export function StoreTabs() {
   const [offersTimer, setOffersTimer] = useState();
   const [nightMarketTimer, setNightMarketTimer] = useState();
   const [reqTime, setReqTime] = useState();
+  const [playerName,setPlayerName] = useState();
   const [allSkinData, setAllSkinData] = useState([]);
   const [vpBalance, setVpBalance] = useState(69420);
   const [rpBalance, setRpBalance] = useState(99999);
@@ -87,7 +89,12 @@ export function StoreTabs() {
           }
         });
     }
+    async function getPlayerName() {
+      let playerName = await AsyncStorage.getItem('player_tag');
+      setPlayerName(playerName);
+    }
     fetchWallet();
+    getPlayerName();
   }, []);
 
   useEffect(() => {
@@ -202,12 +209,12 @@ export function StoreTabs() {
         <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
           <Heading
             color="white"
-            size="xl"
+            size="lg"
             fontFamily="heading"
             pt="3.5"
             pb="2.5"
             pl="1.5">
-            My Val Store
+            {playerName}
           </Heading>
           <Box pt="2.5" pb="2.5">
             <Box flexDirection="row" p="0" m="0">

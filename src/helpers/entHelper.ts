@@ -31,24 +31,21 @@ async function createEntClient() {
 
 export async function fetchEnt(setSuccess, setFail) {
   await createEntClient();
-  await entClient
-    .post('https://entitlements.auth.riotgames.com/api/token/v1', {})
-    .then(async res => {
-      let entToken = res.data.entitlements_token;
-      await SecureStore.setItemAsync('val_ent_token', entToken);
-      let ent = await SecureStore.getItemAsync('val_ent_token');
-      let act = await SecureStore.getItemAsync('val_access_token');
-      let uuid = await AsyncStorage.getItem('playerUuid');
-      //console.log('-------------------------ent-------------------------');
-      //console.log(ent);
-      //console.log('-------------------------act-------------------------');
-      //console.log(act);
-      //console.log('-------------------------uuid-------------------------');
-      //console.log(uuid);
-      setSuccess(true);
-    })
-    .catch(err => {
-      setFail(true);
-      //console.log(err);
-    });
+  try{
+  const [res1,res2] = await Promise.all([entClient
+    .post('https://entitlements.auth.riotgames.com/api/token/v1', {}),entClient.get("https://auth.riotgames.com/userinfo")]);
+  
+    let entToken = res1.data.entitlements_token;
+    let ritoAccName = res2.data.acct;
+    let playerTag = `${ritoAccName.game_name}#${ritoAccName.tag_line}`
+    //console.log(`Setting player Tag ${playerTag}`);
+    await Promise.all([
+    AsyncStorage.setItem('player_tag',playerTag),
+    SecureStore.setItemAsync('val_ent_token', entToken)]);
+    setSuccess(true);
+  }
+  catch(err){
+    setFail(true);
+    //console.log("Error getting ent token and setting player name "+ err);
+  }
 }
