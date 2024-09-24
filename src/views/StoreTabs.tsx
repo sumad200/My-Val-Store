@@ -105,7 +105,7 @@ export function StoreTabs() {
         setAllSkinData(skins);
       })
       .catch(err => {
-        //console.log(`Oh No! some error - ${err}`);
+        //console.log(`Oh No! some error in val assets api - ${err}`);
       });
   }, []);
 
@@ -113,7 +113,7 @@ export function StoreTabs() {
     async function fetchStore() {
       await gameDataHeaders();
       client
-        .get(storeUrl)
+        .post(storeUrl,{})
         .then(res => {
           //console.log(res.data);
           setStore(res.data);
@@ -133,7 +133,7 @@ export function StoreTabs() {
           }
         })
         .catch(err => {
-          //console.log(`Oh No! some error - ${err}`);
+          //console.log(`Oh No! some error in rito store api - ${err}`);
         });
     }
     fetchStore();

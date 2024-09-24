@@ -10,12 +10,11 @@ export async function getWalletUrl() {
 export async function getStoreUrl() {
   let shard = await AsyncStorage.getItem('playerShard');
   let puuid = await AsyncStorage.getItem('playerUuid');
-  return `https://pd.${shard}.a.pvp.net/store/v2/storefront/${puuid}`;
+  return `https://pd.${shard}.a.pvp.net/store/v3/storefront/${puuid}`;
 }
 
 export async function getClientInfo(){
-  axios.get('https://valorant-api.com/v1/version').then((res)=>{
-    //console.log(res.data.data["riotClientVersion"]);
-    return res.data.data["riotClientVersion"];
-  })
+  const res = await axios.get('https://valorant-api.com/v1/version');
+  //console.log(res.data.data["riotClientVersion"]);
+  return res.data.data["riotClientVersion"];
 }
